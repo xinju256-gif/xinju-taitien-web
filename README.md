@@ -22,6 +22,18 @@ npm run preview
 
 `build` 先执行严格 TypeScript 检查，再输出生产文件到 `dist/`。部署时上传整个 `dist/`。Vite 使用相对资源路径，保留原版 `#/...` 哈希路由，可部署在根目录或子目录，不需要额外的服务端路由重写。
 
+## 在线预览（Netlify，保留私有仓库）
+
+仓库根目录的 `netlify.toml` 已配置构建命令 `npm run build`、发布目录 `dist` 和 Node.js 24。GitHub Pages 自动部署流程已移除。
+
+首次部署需要仓库所有者连接自己的 Netlify 账号：
+
+1. 登录 [Netlify](https://app.netlify.com/)，选择 **Add new project → Import an existing project → GitHub**。
+2. 授权 Netlify 访问私有仓库 `xinju256-gif/xinju-taitien-web`，选择该仓库，将 **Branch to deploy** 设置为 **dev-react**。
+3. **Base directory** 留空，确认构建命令为 `npm run build`、发布目录为 `dist`，点击 **Deploy**。
+
+构建成功后，项目概览会显示可访问的 `netlify.app` 网址。后续推送到 `dev-react` 会自动更新该网址。仓库保持私有，生成的网站公开可访问。无需配置环境密钥或路由重写。
+
 ## 目录说明
 
 ```text
@@ -29,6 +41,7 @@ index.html                 HTML 入口、原有元信息、固定版本的 Tailw
 package.json               开发、构建、检查与测试命令
 package-lock.json          精确依赖锁文件
 vite.config.ts             React 插件与相对资源路径
+netlify.toml               在线预览的构建命令、发布目录与 Node.js 版本
 playwright.config.ts       静态版与生产构建的自动对比配置
 tsconfig.json              TypeScript 严格检查
 src/
@@ -88,4 +101,4 @@ CHROMIUM_PATH=/usr/bin/chromium npm run test:parity
 
 将工程包解压后，把目录内的全部源码、配置和资源上传到仓库 `dev-react` 分支的根目录。保留 `package-lock.json` 与隐藏配置文件。`node_modules/`、`.cache/`、`dist/`、测试运行结果和 `.git/` 不在工程包中。
 
-该交付只准备本地工程文件，没有替你提交或推送分支。
+Git 仓库中的 React 定稿工程已提交并推送到 `dev-react`。在线托管需按上方步骤完成首次账号连接；仅推送源码不会自动开通 Netlify 项目。
