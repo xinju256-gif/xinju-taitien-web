@@ -1,0 +1,4458 @@
+{
+  "fetchedAt": "2026-10-14",
+  "scope": "All public English-site product entries discovered from the product sitemap and 57 category pages. Series/variants are distinct entries; configurable order-code permutations are not invented.",
+  "sitemapProducts": 153,
+  "categoryPagesChecked": 57,
+  "productCount": 153,
+  "byCategory": {
+    "equipment": 2,
+    "ocxo": 32,
+    "oscillator": 47,
+    "vcxo": 8,
+    "timing": 5,
+    "tcxo": 28,
+    "crystal": 21,
+    "qcm": 9,
+    "tsx": 1
+  },
+  "datasheetReferences": 153,
+  "uniqueDatasheets": 145,
+  "pdfFiles": 151,
+  "assets": [
+    {
+      "path": "products/PXW-3-08907f47b5.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/05/PXW-3.png",
+      "bytes": 1386739,
+      "sha256": "310b9ca4305f72c23c0da90dd9d5d0ea25b90b28e5e0b6f8a167c5d815517016"
+    },
+    {
+      "path": "datasheets/Model-Numbering-Guide_OCXO-Rev307-2015-f41d67de9d.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf",
+      "bytes": 129358,
+      "sha256": "c8ada46446487e2c383d74199892a91758820ccdc0d7fb342f82b3f4b3f680ef",
+      "pages": 1
+    },
+    {
+      "path": "products/NI-10M-3600-e1784864790368-ede492c3da.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/07/NI-10M-3600-e1784864790368.png",
+      "bytes": 102840,
+      "sha256": "a0a8de2abda057437168fdbb9fbedae71a71ca74bb948a199529e4612f74cc23"
+    },
+    {
+      "path": "datasheets/PXW-3_Crystal-Oscillator-Programmer-3c93b1f954.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/03/PXW-3_Crystal%20Oscillator%20Programmer.pdf",
+      "bytes": 742924,
+      "sha256": "4122637f6506ed824ee5f424837f4c8967dc8386c7905ff246349df13e0b3be9",
+      "pages": 6
+    },
+    {
+      "path": "datasheets/NI-10M-3600-5bd75baa4b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/07/NI-10M-3600.pdf",
+      "bytes": 901748,
+      "sha256": "7bcbe53ed987188a677790523c9dbdd0ebd9a5365edfb0fb39c6adc7924f72da",
+      "pages": 4
+    },
+    {
+      "path": "products/PX-U-1-a5a49bf9f8.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg",
+      "bytes": 28195,
+      "sha256": "a042aa901f45b811b5be0cf7ad63bd255ad1f238ab4efcfffe11d3d9639b0dd5"
+    },
+    {
+      "path": "datasheets/Model-Numbering-Guide_XO-Rev307-2015-c3b5e362d5.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf",
+      "bytes": 105464,
+      "sha256": "19c3a11771be2e337999fd39b41538a14ab914217f8982fc078230b8eca2413b",
+      "pages": 1
+    },
+    {
+      "path": "products/PY-U-dc52338712.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg",
+      "bytes": 29046,
+      "sha256": "7eccdac5f721135b123bb7e32019bf08773a91163357d6e007dfbf55f4b9a94b"
+    },
+    {
+      "path": "datasheets/SX-Type-EMI-Reduction-Spread-Spectrum-Crystal-Oscillator-3-2-x-2-5-x-0-95-mm-SMD-package-20240710-99320e026e.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/11/SX-Type-EMI-Reduction-Spread-Spectrum-Crystal-Oscillator-3.2-x-2.5-x-0.95-mm-SMD-package-20240710.pdf",
+      "bytes": 1517680,
+      "sha256": "bd8e90080c4f3b0220358bc94eb283362785c3e89b21231db03a16cdc0294ed5",
+      "pages": 1
+    },
+    {
+      "path": "products/QWA-5A-High-e1777943806315-98856a99f5.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/QWA-5A-High-e1777943806315.png",
+      "bytes": 2934465,
+      "sha256": "c207a4e3925276769fac16ba6871548d11afed7a84a5b3c7a42eef98194b023b"
+    },
+    {
+      "path": "datasheets/XO-0213-SY-Type-EMI-Reduction-Spread-Spectrum-Crystal-Oscillator-2-5-x-2-0-x-0-8-mm-SMD-package-3ac034ca43.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/11/XO-0213-SY-Type-EMI-Reduction-Spread-Spectrum-Crystal-Oscillator-2.5-x-2.0-x-0.8-mm-SMD-package.pdf",
+      "bytes": 1547862,
+      "sha256": "7baf88b270e4f4903f6232be91ef7fc0dd6a748cd39a452a51562ed5055ef610",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/QWA-5A-a0c0cb004b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/QWA-5A.pdf",
+      "bytes": 240168,
+      "sha256": "dad51f0f6b96bf2ed067e7df099b9ffd81fb6d6d406512c732b0320dfb973a1b",
+      "pages": 19
+    },
+    {
+      "path": "products/NA-17e8dc7138.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg",
+      "bytes": 15599,
+      "sha256": "076f61fdddc021c223f23c43af3d1e10fa77b95c8e9ad48486aa9839545042b8"
+    },
+    {
+      "path": "datasheets/NA-10M-2000-Rev_-112-2012-991179b951.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NA.10M.2000.Rev_.112-2012.pdf",
+      "bytes": 597515,
+      "sha256": "b19abae06ccdcca28c56e8e759c17f20cb130ce84d6acd4ea88e1ff55817e561",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/XO-0109-OX-OY-37e9e53bba.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0109-OX-OY.pdf",
+      "bytes": 971736,
+      "sha256": "d2605fca75a317e46b6744ab3b9eb7112c73c8b90de7f03eb28d2c21f8601b31",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/NA-10M-2500-Rev_-16-2013-5961b1e878.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NA-10M-2500.Rev_.16-2013.pdf",
+      "bytes": 188107,
+      "sha256": "c3c4673243a6ce11ac5298b33b20401bcd40923296ac8bad63c59680b4352a12",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/NA-10M-2400-Rev_-109-2014-597d2188e8.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NA.10M.2400.Rev_.109-2014.pdf",
+      "bytes": 583677,
+      "sha256": "1112821a7d76a3bb88210690d58db45874ee07c671541b533f6adb66a085b668",
+      "pages": 3
+    },
+    {
+      "path": "products/NI-aef8cec137.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/10/NI.jpg",
+      "bytes": 15657,
+      "sha256": "432396fd269bbea699beb6325c7a5472088022c6549ff0c5f5055fd7a6fb5b27"
+    },
+    {
+      "path": "products/NI-285ff2b044.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/02/NI.jpg",
+      "bytes": 7190,
+      "sha256": "f0ed582ea42ba51bbcbd6f46bc564a51de4a1a4f3667016761b0323c1d6a9d78"
+    },
+    {
+      "path": "datasheets/NI-10M-2400-Rev111-2012-1f18ea874c.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NI.10M.2400.Rev111.2012.pdf",
+      "bytes": 615308,
+      "sha256": "c3f638cfbfc2e91e2abee43e4c678e045ca5ba8bba30af9fc7a605a62717035a",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/NI-10M-2500-Rev16-2013-e8fc1f86ae.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NI-10M-2500.Rev16-2013.pdf",
+      "bytes": 196924,
+      "sha256": "8c5ffce6d8f396472b2b853f9b559c3693d0f19af3d26fe9bc74437f8efad200",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/NI-10M-2800-cd453ae674.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NI-10M-2800.pdf",
+      "bytes": 598084,
+      "sha256": "f75d67de11a907e197429a45b85229d5cd57d3b79bef2913cbe6e1a93bc72cfd",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/Model-Numbering-Guide_VCXO-2a546b27a4.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf",
+      "bytes": 107103,
+      "sha256": "1d0821961869e7e1b0db362fb887186a9e88892ee725745b57e18900beb9bb61",
+      "pages": 1
+    },
+    {
+      "path": "products/VA-M-1-22862bf3ec.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/07/VA-M-1.jpg",
+      "bytes": 33067,
+      "sha256": "bd41aa122dd431f345dd63e4f058653ff7d11a26367be9e14205324690b4476c"
+    },
+    {
+      "path": "datasheets/NI-100M-2900-5948a516f0.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NI-100M-2900.pdf",
+      "bytes": 1365300,
+      "sha256": "9287fd3b43acadc3e9bef4abc4da2705765a48c112c2ab3dc07fd530d9e07b9c",
+      "pages": 4
+    },
+    {
+      "path": "datasheets/XO-0151_VA-M_CMOS-5fe64ecf90.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0151_VA-M_CMOS.pdf",
+      "bytes": 1219252,
+      "sha256": "c0fe63ae86f842bdae2b79be01f48a23c9e05eb187eddc4d599c437451207568",
+      "pages": 1
+    },
+    {
+      "path": "products/VA-M-2-d189a7b587.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/07/VA-M-2.jpg",
+      "bytes": 33067,
+      "sha256": "bd41aa122dd431f345dd63e4f058653ff7d11a26367be9e14205324690b4476c"
+    },
+    {
+      "path": "products/VT-M-1f0511f116.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/VT-M.jpg",
+      "bytes": 30585,
+      "sha256": "4b8c6da2fbf96e5e8af7f93e88e674eb1d1fb5c87fc7d2e9cd7e7f28e902b0ba"
+    },
+    {
+      "path": "datasheets/XO-0152_VA-M_LVPECL-468e888d93.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0152_VA-M_LVPECL.pdf",
+      "bytes": 1290185,
+      "sha256": "6979c686a97f2bd32e0a8dfab56c91158dfdcc2a5124ae1bf1d487f0744f6c2a",
+      "pages": 1
+    },
+    {
+      "path": "products/VT-M-1-0e848b7f9a.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/VT-M-1.jpg",
+      "bytes": 30585,
+      "sha256": "4b8c6da2fbf96e5e8af7f93e88e674eb1d1fb5c87fc7d2e9cd7e7f28e902b0ba"
+    },
+    {
+      "path": "datasheets/XO-0052-VT-MCMOS-Type-79f1a633ae.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0052-VT-MCMOS-Type.pdf",
+      "bytes": 1600654,
+      "sha256": "f2db5c735aba51ced7504782b9dce5fea542e5d1a9bf25e23ab311a08c79a3fb",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0048-VT-MLVPECL-Type-63fdb8a1ef.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0048-VT-MLVPECL-Type.pdf",
+      "bytes": 1521348,
+      "sha256": "fb0beda58323a98a91bfab5817ac94215e94d55f134706bc8ea6c595096bc670",
+      "pages": 1
+    },
+    {
+      "path": "products/VW-M-7b656df0cb.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/11/VW-M.jpg",
+      "bytes": 34177,
+      "sha256": "485533fa58a63c75d583fb3cbb154a611ecfd4754afd59d707314be0f886d9a5"
+    },
+    {
+      "path": "products/VW-M-403ed47efb.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/12/VW-M.jpg",
+      "bytes": 34177,
+      "sha256": "485533fa58a63c75d583fb3cbb154a611ecfd4754afd59d707314be0f886d9a5"
+    },
+    {
+      "path": "datasheets/XO-0147_VW-M_CMOS-cc9772ad8e.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/11/XO-0147_VW-M_CMOS.pdf",
+      "bytes": 1596435,
+      "sha256": "1b7d5764949353d7d40860157d52d5892c137e603770062f06d8b56ee59ffd6f",
+      "pages": 1
+    },
+    {
+      "path": "products/P4-U-f6b0a02a5c.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/P4-U.jpg",
+      "bytes": 33556,
+      "sha256": "b358cc0542e6ebdc4d2549d984cf3320bd9c85cf4175a3ed21bc1bdec8c350d9"
+    },
+    {
+      "path": "datasheets/XO-0146-VW-M-LVPECL_LVDS-7048620c38.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/12/XO-0146-VW-M-LVPECL_LVDS.pdf",
+      "bytes": 1567851,
+      "sha256": "d5844aef0c5b57b89a8ec0de36d3be260d6a4d24a158ed05a8721049ae1ee026",
+      "pages": 1
+    },
+    {
+      "path": "products/OA-M-b47c156e88.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/10/OA-M.jpg",
+      "bytes": 33066,
+      "sha256": "b40df9b465a4c5e20b06eee899cb0c2b5cbbf8703099d3492f042b330a4d0507"
+    },
+    {
+      "path": "datasheets/taitien-1-2x1-0mm-ultra-small-tcxo-fastxo-p4-u-datasheet-4bf24fefaf.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/taitien-1.2x1.0mm-ultra-small-tcxo-fastxo-p4-u-datasheet.pdf",
+      "bytes": 1642799,
+      "sha256": "b9978439cf137c4ccbfdbad46e856ab092ead839f76c6ce43deb26c88692daba",
+      "pages": 1
+    },
+    {
+      "path": "products/OA-5e3e23268c.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/10/OA.jpg",
+      "bytes": 27581,
+      "sha256": "def5bc6104df7e9705ab03b010a0bb6231ca6e0966475342180bb53e4942616e"
+    },
+    {
+      "path": "datasheets/XO-0149_OA-M_CMOS-78f868fb1e.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0149_OA-M_CMOS.pdf",
+      "bytes": 1583940,
+      "sha256": "a5b189afb8ad923df6d473fff23cbd798c97e844128646de709ff8595d0aa501",
+      "pages": 1
+    },
+    {
+      "path": "products/OD-M-e8982c900b.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/01/OD-M.jpg",
+      "bytes": 29311,
+      "sha256": "b4b5be448e164067d31236acaac38046027e90635ee4d70302e9b3f2db847948"
+    },
+    {
+      "path": "datasheets/XO-0150_OA-M_LVPECL-b2e0c47834.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0150_OA-M_LVPECL.pdf",
+      "bytes": 1597486,
+      "sha256": "d9dda0aa20fa5f2bfd4e8f4b6718410ef09f937047467aa311513afb8b6794ff",
+      "pages": 1
+    },
+    {
+      "path": "products/OD-P-38e213065f.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/01/OD-P.jpg",
+      "bytes": 29311,
+      "sha256": "b4b5be448e164067d31236acaac38046027e90635ee4d70302e9b3f2db847948"
+    },
+    {
+      "path": "datasheets/XO-0158_OD-P-1f948763a1.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0158_OD-P.pdf",
+      "bytes": 560166,
+      "sha256": "2037ddbf895333da23c73c3b782e1d0eb0697fcaa65e4a14606efb6a4cbf4c6c",
+      "pages": 3
+    },
+    {
+      "path": "products/OJ-M-1-e157ca585e.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/05/OJ-M-1.jpg",
+      "bytes": 33324,
+      "sha256": "2c97e5f0e88bc991dec744f4d6d4c36a8629142f84529a1fb6ced11edd672db8"
+    },
+    {
+      "path": "datasheets/XO-0157_OD-M-632e91902a.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0157_OD-M.pdf",
+      "bytes": 1713751,
+      "sha256": "0edfbf4ea9e9e489125cce2a8ad6138e1bee0f4ed2ca8349427ea81a02274dd1",
+      "pages": 3
+    },
+    {
+      "path": "products/OT-M-2-ac2df386f5.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/OT-M-2.jpg",
+      "bytes": 30541,
+      "sha256": "296ede88daae26bfcf0a7773416bccb84fa487b8a16d87b735368c2e5e3f5b96"
+    },
+    {
+      "path": "datasheets/XO-0164_OJ-M-f8eeae85e9.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/05/XO-0164_OJ-M.pdf",
+      "bytes": 1708687,
+      "sha256": "c6d455c802d35301d14c3a5342b390528e862e91bb2ad58f00bd9a04c9d7bf56",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/XO-0117-OT-M-CMOS-906827c8ca.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0117-OT-M-CMOS.pdf",
+      "bytes": 1533698,
+      "sha256": "75b2e624945d02621a5cbbaa0aedae72ddffeea6f7e32cef137b2d51bcfdb83d",
+      "pages": 1
+    },
+    {
+      "path": "products/OW-M-1dfa152758.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/OW-M.jpg",
+      "bytes": 33592,
+      "sha256": "9419410dabb425d3d8cb4f6331ed4754e78b78168943988a5daefc06251f9657"
+    },
+    {
+      "path": "datasheets/XO-0113-OT-M-Type-7-0X5-0mm-SMD-LVPECL-LVDS-Crystal-Oscillator-17f66a089b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0113-OT-M-Type-7.0X5.0mm-SMD-LVPECL-LVDS-Crystal-Oscillator.pdf",
+      "bytes": 1243559,
+      "sha256": "48efd90637738ace07406b875414f0d12dc6af2d911bf8d20976445b5be63007",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0116-OW-M-CMOS-95a19bef67.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0116-OW-M-CMOS.pdf",
+      "bytes": 1750799,
+      "sha256": "8b0cf3bffb73f6562a1b35aaaf0b0aa59ddbf3bff35f63d6afce069f6f7fdcf0",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0114-OW-M-LVPECL-LVDS-ccb6aeee86.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0114-OW-M-LVPECL-LVDS.pdf",
+      "bytes": 1598748,
+      "sha256": "fa7921963f3fe4d2a559cddf612a421d57d1c666710a345de929ba3542e436ce",
+      "pages": 1
+    },
+    {
+      "path": "products/PC-U-c521c424b1.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/07/PC-U.jpg",
+      "bytes": 30055,
+      "sha256": "ff0ece3a3ff930597547b66bd92a616e1b51b01d71f0259400557a5b2580c5e7"
+    },
+    {
+      "path": "products/PV-U-1-24be21ae18.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/07/PV-U-1.jpg",
+      "bytes": 31620,
+      "sha256": "95928235cc0f6539e6556508cf6071bcb38823e5503f34dd6e9c6835af54c8c3"
+    },
+    {
+      "path": "datasheets/XO-0166_PC-U-c10c4f9f05.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/05/XO-0166_PC-U.pdf",
+      "bytes": 1589039,
+      "sha256": "7469618ed2e373458558b5c53f4ae00deba850605a6fb065195c4ef400c0942a",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0165_PV-U-20c24da0b8.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/07/XO-0165_PV-U-.pdf",
+      "bytes": 1597118,
+      "sha256": "1f4bfbcecaac86286dc45af7fc5dac94f6248d8172e16c3ff9c1a3c2c58ae30a",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0167_PX-U-b251357a68.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/07/XO-0167_PX-U.pdf",
+      "bytes": 1580818,
+      "sha256": "99e9a6c9e78dd459d2b5f2f21ad015fcf0211aeb58d28d69dc8406253a331d7c",
+      "pages": 1
+    },
+    {
+      "path": "products/pz-u-1b5a87673d.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/05/pz-u.jpg",
+      "bytes": 30068,
+      "sha256": "f88c04b8bb8be282bef1b28eef6577780851e29471dd71bf711188312fa05c32"
+    },
+    {
+      "path": "datasheets/PY-U-55f62aed4b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/10/PY-U.pdf",
+      "bytes": 1044615,
+      "sha256": "0ce817f984933a8e64ef6fe70ed56482b83b0d6e21789aec08984ecc7d952564",
+      "pages": 1
+    },
+    {
+      "path": "products/GT-11-f783636f70.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/11/GT-11.jpg",
+      "bytes": 32972,
+      "sha256": "a909fa681db67edf4129fa1a6b7863926d2c62f0f20d464d52b7b44c3b647600"
+    },
+    {
+      "path": "datasheets/XO-0169_PZ-U-d32bf0e4de.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/05/XO-0169_PZ-U.pdf",
+      "bytes": 1589072,
+      "sha256": "f1e2907458a902e3c81cbad324184770ff5c6f91502f6121ca2d0895cfa15e4f",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/GPS-Disciplined-Oscillator-GPSDO-GT-11-series-61618d57ef.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2023/02/GPS-Disciplined-Oscillator-GPSDO-GT-11-series.pdf",
+      "bytes": 1409067,
+      "sha256": "e3f0a21f981716767f110a4e267bb70ad3c3474cb5b1291809d24f769dcbfe0d",
+      "pages": 2
+    },
+    {
+      "path": "products/TX-U-37043ebc1f.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/12/TX-U.png",
+      "bytes": 63722,
+      "sha256": "fd9c5c7a1b34668f4bb5bf416b9633266730aa038c23297d5226125101ef25bc"
+    },
+    {
+      "path": "datasheets/Model-Numbering-Guide_TCXO-Rev307-2015-dceeaac9f2.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf",
+      "bytes": 109675,
+      "sha256": "0e370fc68a8555877a05ca8cf6549d2502829da17e4719f7b70d9cc4254642ff",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0232-TX-U-Type-High-Frequency-and-Low-Noise-3-2-x-2-5-mm-Differential-Output-TCXO-and-VCTCXO-1828c181b5.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0232-TX-U-Type-High-Frequency-and-Low-Noise-3.2-x-2.5-mm-Differential-Output-TCXO-and-VCTCXO.pdf",
+      "bytes": 2035680,
+      "sha256": "52ca1cc490b448c10b85e49cadb6fa9c5738d9f5434432d74180745d088913f6",
+      "pages": 3
+    },
+    {
+      "path": "products/TW-ab7972dc43.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/TW.jpg",
+      "bytes": 28350,
+      "sha256": "618a57ed5570dc1f2ec7c09146c0b262e8b24d6cb31e7de45aa96e8704fb6649"
+    },
+    {
+      "path": "datasheets/Model-Numbering-Guide_CRYSTAL-f4cbc4a5bd.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf",
+      "bytes": 370805,
+      "sha256": "8a19b557d4aab4a6b7ead58145fe11f8199ad27adb69259f7cf972e157af2b12",
+      "pages": 1
+    },
+    {
+      "path": "products/X5-7812701f4a.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/X5.jpg",
+      "bytes": 17136,
+      "sha256": "f4cfbddc8333338a651f15f7def76d34f6124a6e41740299521a0e3b761caced"
+    },
+    {
+      "path": "datasheets/XO-0128_X5_TYPE-29d85e2dbb.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0128_X5_TYPE.pdf",
+      "bytes": 342327,
+      "sha256": "f5d6258c3f9f6b945f072b5e0f80c891043764bb004b80c0ca79694269c40317",
+      "pages": 1
+    },
+    {
+      "path": "products/X6-00e07025e8.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/X6.jpg",
+      "bytes": 17966,
+      "sha256": "ebe7964f4d222713810b0c295ab7e97f7a337980915ae11b58be1178a68cd216"
+    },
+    {
+      "path": "datasheets/XO-0127_X6_TYPE-b9db009baf.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0127_X6_TYPE.pdf",
+      "bytes": 334578,
+      "sha256": "d1525f7a17219b39d3d3c1ab669487a6c2b3437c95efc0b75e32a42f775daf41",
+      "pages": 1
+    },
+    {
+      "path": "products/X7-08f1248c3b.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/X7.jpg",
+      "bytes": 25825,
+      "sha256": "7df38a391f3d8d12b4915b31ae08ca91d3ac0adfbde02c7094db307a59a5bc20"
+    },
+    {
+      "path": "datasheets/Taitien-Ultra-Wide-Temperature-VCTCXO-TW-F-fae6fd0cc2.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/Taitien-Ultra-Wide-Temperature-VCTCXO-TW-F.pdf",
+      "bytes": 1658449,
+      "sha256": "676e876e806c8ce49635a64f3b51675d2b9c49c5dc8869e4804f93b827eb25e0",
+      "pages": 2
+    },
+    {
+      "path": "products/X8-a8f39fb056.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/X8.jpg",
+      "bytes": 19614,
+      "sha256": "817977fff5f98c548c0c8903bbd1c30f6f10deca569ea31a0ce3ae4b32f87a61"
+    },
+    {
+      "path": "datasheets/XO-0125_X7_TYPE-136799a962.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0125_X7_TYPE.pdf",
+      "bytes": 330330,
+      "sha256": "a5293bde2b909e7b95583ab69139c4139c56c9dc6e4eef4db6c9d9afa95a42ee",
+      "pages": 1
+    },
+    {
+      "path": "products/XH-184ef4ba5f.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XH.jpg",
+      "bytes": 17744,
+      "sha256": "d791a79761bfab612e42364c5d6af595950f3168462a01f2e7af2d4c70a627c9"
+    },
+    {
+      "path": "datasheets/XO-0126_X8_TYPE-6adbd5cd02.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0126_X8_TYPE.pdf",
+      "bytes": 331071,
+      "sha256": "24c5a0cb7353f5eec1c233574cff34bbd819a11bf6dea41faabd95646ccff092",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0129_XH_TYPE-7235a0e7e1.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0129_XH_TYPE.pdf",
+      "bytes": 320183,
+      "sha256": "036a57fbde003e828a8ca367d27194e3f7c741af30bca984f3504413b55266f9",
+      "pages": 1
+    },
+    {
+      "path": "products/TL-4dc7cce238.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/11/TL.jpg",
+      "bytes": 31303,
+      "sha256": "ca0e2d79b5bdf4c1d3bad6383ab708f82546ab9519afc878d7ce37080c62f3ad"
+    },
+    {
+      "path": "datasheets/XO-0074_TS_STRATUM3-c73cbe05ba.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0074_TS_STRATUM3.pdf",
+      "bytes": 1517678,
+      "sha256": "5c837ed46feb42d8b5ff1d28671674bdee5957aee2d01aaaa54ff564c6c7c4e4",
+      "pages": 1
+    },
+    {
+      "path": "products/TS_Stratum-3-94a26181fb.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/TS_Stratum-3.jpg",
+      "bytes": 30718,
+      "sha256": "415a827ab3eecd94a4e4c23781ff8fd456aa26c4be932b796d708d22a461d67a"
+    },
+    {
+      "path": "datasheets/OX-B_OY-B-1780034236.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2023/01/OX-B_OY-B.pdf",
+      "bytes": 1124322,
+      "sha256": "0d4e12d6ecd6675eda66b07813cb569c15d27217ff8d6736258f9dffad2dea8a",
+      "pages": 1
+    },
+    {
+      "path": "products/TT_Stratum-3-c491bd0ec3.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/TT_Stratum-3.jpg",
+      "bytes": 28979,
+      "sha256": "19159fea6514153f1780933e46144634b742b9f9cf5fba3577f80f0951316204"
+    },
+    {
+      "path": "datasheets/XO-0192-TL-STRATUM3-995829102d.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/11/XO-0192-TL-STRATUM3.pdf",
+      "bytes": 813149,
+      "sha256": "aa2f5ed095a5bd4335b30b74f128c0ee4ea63b40c8e3cfb474e60b8d280f6c5d",
+      "pages": 1
+    },
+    {
+      "path": "products/TK-c908e8e677.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/TK.jpg",
+      "bytes": 26389,
+      "sha256": "79e2df8ad5b46f041f937fc26b457414639470d5312702a1c82eb9f984a275f3"
+    },
+    {
+      "path": "datasheets/XO-0088_TT_STRATUM3-32a1c9d5f2.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0088_TT_STRATUM3.pdf",
+      "bytes": 1516718,
+      "sha256": "ed9437d3146d6e478181295456c3d6f557f44305ff91f07497e1e915f2a1fdc0",
+      "pages": 1
+    },
+    {
+      "path": "products/TL-ff0018e7ee.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/03/TL.jpg",
+      "bytes": 31303,
+      "sha256": "ca0e2d79b5bdf4c1d3bad6383ab708f82546ab9519afc878d7ce37080c62f3ad"
+    },
+    {
+      "path": "datasheets/TL-F-Type-Ultra-High-Temperature-VCTCXO-a404cd2ace.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/03/TL-F-Type-Ultra-High-Temperature-VCTCXO.pdf",
+      "bytes": 1588738,
+      "sha256": "a43b7ac7f0b290bddbfd5e99625cb7bc6d1897806103cbb2055130d120ec77b5",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/TS-F-Type-Ultra-High-Temperature-VCTCXO-f79294a5b7.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/03/TS-F-Type-Ultra-High-Temperature-VCTCXO.pdf",
+      "bytes": 1449890,
+      "sha256": "f340ce66ecec2c4df40e633f1e01e99de5c8d8e2f8d098ec3a7444f1229cf23c",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/TK-Type-High-Frequency-Very-Low-Noise-TCXO-d85078009b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/05/TK-Type-High-Frequency-Very-Low-Noise-TCXO.pdf",
+      "bytes": 2278207,
+      "sha256": "54bff14c21b86651e82e986149a375bbe0a43b5f9c1557efa478a5cab6b7dec4",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/TS-Rev36-2013-2d3f155847.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/TS.Rev36-2013.pdf",
+      "bytes": 1639369,
+      "sha256": "066b2dabd789ecf30c4b2c1c92d37be994b092b5a1764c5bddd7fc6ec9621a4f",
+      "pages": 1
+    },
+    {
+      "path": "products/TT-L-2-3e1597735e.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/01/TT-L-2.jpg",
+      "bytes": 35926,
+      "sha256": "fa4f078b19e4f3240a5fcb8fd751b5730fefcf277deba4073548a55529e80e0f"
+    },
+    {
+      "path": "datasheets/TT-F-Type-Ultra-High-Temperature-VCTCXO-ec056ef1f9.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/03/TT-F-Type-Ultra-High-Temperature-VCTCXO.pdf",
+      "bytes": 1439894,
+      "sha256": "4b0beb054a96797cf8d5db3dac7a55c5631d90e3cbffbedd28ac9a50d2dceea8",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0087_TT-29c301b244.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0087_TT.pdf",
+      "bytes": 1606052,
+      "sha256": "0e68ae2ca5540cd33d2e56a24683e7d4eb2fa1e4dbcf3e3d151a8ecb9f79b904",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0173_TT-L-9569d13781.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/01/XO-0173_TT-L.pdf",
+      "bytes": 1438222,
+      "sha256": "8c00a9e76c30f246b5b0c05c37b4da46f3e79d8435b1a75e19003730243ac5f4",
+      "pages": 1
+    },
+    {
+      "path": "products/TU-ae7ed03f18.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/03/TU.jpg",
+      "bytes": 24401,
+      "sha256": "0e239fca4176a65080cdc12a692a11fc0724016bce974e53d2f808fb67ff3db4"
+    },
+    {
+      "path": "products/TW-9817d40793.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/TW.jpg",
+      "bytes": 28350,
+      "sha256": "618a57ed5570dc1f2ec7c09146c0b262e8b24d6cb31e7de45aa96e8704fb6649"
+    },
+    {
+      "path": "datasheets/XO-0185-TU_TYPE-be3b12444d.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/03/XO-0185-TU_TYPE.pdf",
+      "bytes": 1550707,
+      "sha256": "ef810f65807bb42535c49cbb6dd0b06e19e06b94c69e24a630245083424933d5",
+      "pages": 2
+    },
+    {
+      "path": "products/TL-dd8a0aeaec.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/06/TL.jpg",
+      "bytes": 31303,
+      "sha256": "ca0e2d79b5bdf4c1d3bad6383ab708f82546ab9519afc878d7ce37080c62f3ad"
+    },
+    {
+      "path": "datasheets/XO-0084_TW_TYPE_TCXO-48aa2c8d0c.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0084_TW_TYPE_TCXO.pdf",
+      "bytes": 1576352,
+      "sha256": "3b90e2c9cf6c79f591248da9b36065cd5dd2d8f618c2fff94e15f759a59705e2",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0161-TL-Type-High-Precision-TCXO-509318293b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/06/XO-0161-TL-Type-High-Precision-TCXO.pdf",
+      "bytes": 1757672,
+      "sha256": "7c37224c3db16abac2e2c10792a1577a8895b1ce15dc117a58cd079ff4aa98cb",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/OZD_20220420-5e154cb55a.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2022/04/OZD_20220420.pdf",
+      "bytes": 1305855,
+      "sha256": "dc1bbefc57b93b7b4bf95fe89e5756635d35b959652984eaa96f2f1f1151e40f",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0153-OY-I-def046d04f.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/12/XO-0153-OY-I.pdf",
+      "bytes": 831073,
+      "sha256": "5ce3d5e24255968e7c9b2fe3f02884b7e1cae472953cd79f536eecdc4447a89a",
+      "pages": 1
+    },
+    {
+      "path": "products/OZ-4c33fb3478.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2022/04/OZ.jpg",
+      "bytes": 11889,
+      "sha256": "c98daf10dfaf48f2681f33ba98da12959bee617d9d410d479fb507a69ae1c540"
+    },
+    {
+      "path": "datasheets/XO-0195-OY-D-Type-f829bf4c5b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2022/04/XO-0195-OY-D-Type.pdf",
+      "bytes": 924645,
+      "sha256": "50cc27f08699760286310a5e3b39b708fd77da0ca1d1250a16fca4c720ec0874",
+      "pages": 1
+    },
+    {
+      "path": "products/OX-I-aa0de6fb99.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/10/OX-I.jpg",
+      "bytes": 27840,
+      "sha256": "9f633368fe7506d5626ea1472a8194f6642d925781e83898bdcf55324e948c9a"
+    },
+    {
+      "path": "datasheets/XO-0108_32-768K_OX_OY-e5ce443ef4.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0108_32.768K_OX_OY.pdf",
+      "bytes": 1064072,
+      "sha256": "5d36540ac60590ca8d0c8bf6f1ee38a38f107042af5557d1186a05be6f84e615",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/Low-Current-Consumption-32-768kHz-OX-I-TYPE-97e8c3e368.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/10/Low-Current-Consumption-32.768kHz-OX-I-TYPE.pdf",
+      "bytes": 1174074,
+      "sha256": "55684a37ff3638a002c0a0bada761f6e2bc6e037614a8e14c4b231b967951a23",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0174_OZ-I-f38297b73f.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/01/XO-0174_OZ-I.pdf",
+      "bytes": 1247423,
+      "sha256": "d60083e9e485b454edc5bb99e817e8211894c73e499152bcd973b7f7d2cd35ba",
+      "pages": 1
+    },
+    {
+      "path": "products/TX-D-59216f8707.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/03/TX-D.jpg",
+      "bytes": 21908,
+      "sha256": "6395c122b3ba88ce781cc66562a327a48b6fe2c284a5717567ad1dc34eb1c217"
+    },
+    {
+      "path": "datasheets/XO-0210-TX-D-Type-32-768KHz-3-2-x-2-5-mm-SMD-CMOS-TCXO-9ca6e06c78.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/03/XO-0210-TX-D-Type-32.768KHz-3.2-x-2.5-mm-SMD-CMOS-TCXO.pdf",
+      "bytes": 1570370,
+      "sha256": "34e9da6e4b9da712e53ad6e2fc4781d3c54ca8d3698b69c54d4e69e3440fc663",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/NA-100M-6600-Series-831596b860.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/10/NA-100M-6600-Series.pdf",
+      "bytes": 2522993,
+      "sha256": "e81dfcdaf818222e21331a9f0602133b3c837c75ef7c2a939048e59de5cd1175",
+      "pages": 4
+    },
+    {
+      "path": "datasheets/NI-10M-6800-series-a98dec38d8.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/10/NI-10M-6800-series.pdf",
+      "bytes": 2146616,
+      "sha256": "bf29579aba6de0d6e26b7ae89727a1e458ecc7d52f225bc397adf5258a3f701b",
+      "pages": 4
+    },
+    {
+      "path": "products/NA-100M-6600-e1791185877281-f2a42c3b3b.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/10/NA-100M-6600-e1791185877281.png",
+      "bytes": 159727,
+      "sha256": "8ba96447321fbece55bb2da6e084d315d59f921fe460e31eeace9ee73e74133c"
+    },
+    {
+      "path": "datasheets/NA-100M-6600-Phase-Noise-6f29d9ccab.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/10/NA-100M-6600-Phase-Noise.png",
+      "bytes": 221371,
+      "sha256": "24ed31a46517fbedf1b23d4e3ec450534facbe184694b7aa59ea87933bc4d629"
+    },
+    {
+      "path": "datasheets/TZ-L-Low-Voltage-1-2V-TCXO-1d43d661e6.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/01/TZ-L-Low-Voltage-1.2V-TCXO.pdf",
+      "bytes": 487306,
+      "sha256": "be496ecc8c1ef715abe00ea6da510aba6230baf432d3898536f78a38789f1f6f",
+      "pages": 1
+    },
+    {
+      "path": "products/TZ-C-2ae246ca04.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/01/TZ-C.jpg",
+      "bytes": 22074,
+      "sha256": "43026db5abbf536cdcecbc3fbd3b77354f8c4c4a40bf6989589caa450b2d3489"
+    },
+    {
+      "path": "datasheets/NI-10M-6800-Phase-Noise-678a759325.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/10/NI-10M-6800-Phase-Noise.png",
+      "bytes": 420378,
+      "sha256": "bf140de72366c5775b1ceabe11fbc5a39c677bb923c6e1836ebc0adfaafa8732"
+    },
+    {
+      "path": "products/NI-10M-6800-e1791189822108-4f9ed90739.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/10/NI-10M-6800-e1791189822108.png",
+      "bytes": 151849,
+      "sha256": "54285ea1524030138b16bb1a1e58662927ad8e2fa58ee972bbaf3928c62bfe28"
+    },
+    {
+      "path": "products/OB-6226adedec.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/01/OB.jpg",
+      "bytes": 29686,
+      "sha256": "d5c63a7c1c1332fc6ea8ad4073839e6cf62ef420c00369ff0bf0167a3873afea"
+    },
+    {
+      "path": "datasheets/XO-0141-OA-TYPE-3fa43872f1.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/10/XO-0141-OA-TYPE.pdf",
+      "bytes": 1692858,
+      "sha256": "004c6cf2a2fc9e59b189440b1f7b8e8799216db0292148d70cf8e08b10df5231",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/OB-5524184a38.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/01/OB.pdf",
+      "bytes": 1691609,
+      "sha256": "aba2eeb950e0b737a0ab52cd37d5a8eef378888863ea34830ee2c035e66e7f7c",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/XO-0007-OC-Type-da71e40ffb.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0007-OC-Type.pdf",
+      "bytes": 1481235,
+      "sha256": "9566fb73c8628d3a24fedc10e2222c62a9f4d32cab404c51fa1936feaa2f38c1",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0041-OV-Type-d6782d998c.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0041-OV-Type.pdf",
+      "bytes": 1481327,
+      "sha256": "b9754ef11c99c066786b9a408f4b2edc89d98f1ca9366daea54b70f0021ad501",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0054-OT-LVPECL-87b5a427ca.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0054-OT-LVPECL.pdf",
+      "bytes": 1679873,
+      "sha256": "7dcdcd521e1bda49f654105b00aa3d2ebb3a1c6e5795761e380df5422b84a73e",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/XO-0072-OX-Type-f965bf8951.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0072-OX-Type.pdf",
+      "bytes": 1480520,
+      "sha256": "262ec782a4e7425f5fe3e9f83b62771c67fed0c9da8b6bb2b920bbd331bcb78e",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0155-OX-Ultra-Low-Power-04a2eb331c.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0155-OX-Ultra-Low-Power.pdf",
+      "bytes": 1575500,
+      "sha256": "bda02acfba6d8e2e320ccc0f7a3fd668c59a3b7fe22ce4a2d745a03c31316856",
+      "pages": 1
+    },
+    {
+      "path": "products/OY-ec54b3db25.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/OY.jpg",
+      "bytes": 28567,
+      "sha256": "20abdeb39c19bb76cb8b3444c9a64eff565b198a9c6a0f2f20337b7a42da0d0c"
+    },
+    {
+      "path": "datasheets/XO-0089-OW-LVPECL-e43bb91085.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0089-OW-LVPECL.pdf",
+      "bytes": 1679953,
+      "sha256": "6215d176e7c0681abeb33fc4e6383ab63e1e3111e2c7d59df4088ae5c62a6863",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/XO-0079-OY-Type-cf11813cde.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0079-OY-Type.pdf",
+      "bytes": 948748,
+      "sha256": "010c5da975255ef767b9aee0702a4560f478dabbfc7e652dc4f9fbabe177993e",
+      "pages": 1
+    },
+    {
+      "path": "products/OZ-dd9125907a.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/OZ.jpg",
+      "bytes": 29751,
+      "sha256": "9ba82b32dbdcbe965932c29ad8f0ab37e57244bd4357da118a166235dba92c6d"
+    },
+    {
+      "path": "datasheets/XO-0093-OZ-Type-1-9e2af24e2b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0093-OZ-Type-1.pdf",
+      "bytes": 1486380,
+      "sha256": "4a3e4acd656106a85bf68bf5555aad313d1a5bb46beb44b586474c54c5abaff1",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0154-OY-TYPE-ULTRA-LOW-POWER-186bfc8820.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0154-OY-TYPE-ULTRA-LOW-POWER.pdf",
+      "bytes": 1016316,
+      "sha256": "3a1c52d2188dd005ab2b78fae42732dd8e5cafcb507115bb7aaff9b644ccd06d",
+      "pages": 1
+    },
+    {
+      "path": "products/X3-63fb28ea03.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/X3.jpg",
+      "bytes": 30735,
+      "sha256": "cfe63d62dae12b5233101b1f55618a6381980c9cf2bc3e39e40688c3cccc37b6"
+    },
+    {
+      "path": "datasheets/XO-0231-OZ-Type-2-0-x-1-6-mm-SMD-Ultra-Low-Power-SMD-CMOS-Output-Crystal-Oscillator-1-2c5b01717c.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0231-OZ-Type-2.0-x-1.6-mm-SMD-Ultra-Low-Power-SMD-CMOS-Output-Crystal-Oscillator-1.pdf",
+      "bytes": 1584780,
+      "sha256": "46d62047796402aa58b8bd7a42c6a63a9450d3e5c2dbdf16631bbeb7f6735440",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/AT-0024_X4_Type-2b80e29d5c.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/09/AT-0024_X4_Type.pdf",
+      "bytes": 1375905,
+      "sha256": "55328e0b02f076013e80494d81aa41c18b57edefdf407d1f9f6c45909123a767",
+      "pages": 1
+    },
+    {
+      "path": "products/XI-41659e710b.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XI.jpg",
+      "bytes": 14792,
+      "sha256": "bb581d4a90269f1ebe57a6965173d3008b102398c563b79c29fc2d39fbc44883"
+    },
+    {
+      "path": "datasheets/AT-0022_X3-1-557f19a4e3.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0022_X3-1.pdf",
+      "bytes": 1650192,
+      "sha256": "5898c04a80942bc1707798d15d2696c74d52b28dd43351dde7d4f5414c982ecb",
+      "pages": 1
+    },
+    {
+      "path": "products/XJ-ffdbf7d2c9.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XJ.jpg",
+      "bytes": 19417,
+      "sha256": "7aac360886ff613b9b1ec479c4a4ab4553f26574d887db33e5008fe9f3e9073d"
+    },
+    {
+      "path": "datasheets/AT-0012_XR-7bfefca854.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0012_XR.pdf",
+      "bytes": 837013,
+      "sha256": "3bc01b633968498ed9b9baefb4135a04ec4e7e442e95fe19b3f4861ca2c91ec1",
+      "pages": 1
+    },
+    {
+      "path": "products/XR-a487fe9c98.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XR.jpg",
+      "bytes": 30122,
+      "sha256": "b61aa9518fba98efcf48e043e7af012f183fe6c5ca0a63c470ceba3fa186268e"
+    },
+    {
+      "path": "datasheets/AT-0008_XI-30418bc3ab.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0008_XI.pdf",
+      "bytes": 193891,
+      "sha256": "977593b035061f31f632e129a80514efcc90cedf2310c1ee05ac235261e31c59",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/AT-0020_XJ-8644d266bc.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0020_XJ.pdf",
+      "bytes": 1514289,
+      "sha256": "30716076f4d99c9f7aba80bed8afb3a4509e7ed12241e44ba6839ed35ada3cca",
+      "pages": 1
+    },
+    {
+      "path": "products/XV-9922844b30.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XV.jpg",
+      "bytes": 29492,
+      "sha256": "0c312f3e6151a61d132afba66ee87aee12f6f887841b3df83eb6a421d024bfe0"
+    },
+    {
+      "path": "products/XX-dc7956929d.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XX.jpg",
+      "bytes": 28031,
+      "sha256": "2d02aa085ec45f686d36cdd686209975cc36297b45d8dfa19905a9934e240038"
+    },
+    {
+      "path": "datasheets/AT-0014_XV-090c8dd2c9.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0014_XV.pdf",
+      "bytes": 1454810,
+      "sha256": "102bd0a5871d85ff1b4dfdd1f3a183d52515d725a66cc33bc00001c21facd278",
+      "pages": 1
+    },
+    {
+      "path": "products/XY-bc915ab6a6.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XY.jpg",
+      "bytes": 30484,
+      "sha256": "a7b5e3b94a55066a53ef383ed2b7b5d70b1bf4a66959dd13d23bc7d60358f0a5"
+    },
+    {
+      "path": "datasheets/AT-0002_XX-1a2a9b5e44.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0002_XX.pdf",
+      "bytes": 1459369,
+      "sha256": "7fda4afc296745795efed1132a761cde1388fbb20f868f279b55456c8e17035c",
+      "pages": 1
+    },
+    {
+      "path": "products/XZ-1-7684e2b7a1.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XZ-1.jpg",
+      "bytes": 30025,
+      "sha256": "e118a6b809c70f6fb1098bf85bb5af3935b00d3cef1437b4409fa19b3208932e"
+    },
+    {
+      "path": "datasheets/AT-0017_XY-2b31059e91.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0017_XY.pdf",
+      "bytes": 1445327,
+      "sha256": "14ad22862d3341156246df67c4e8e029d3e2711059f27b5e886310c95f4255cf",
+      "pages": 1
+    },
+    {
+      "path": "products/O3-e1782359316343-321074fa56.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2023/03/O3-e1782359316343.png",
+      "bytes": 124311,
+      "sha256": "d18e88d97a985e912054453654c4c501cdfe30da81201bdb63208a916cb2900f"
+    },
+    {
+      "path": "datasheets/AT-0023_XZ-8353c077b3.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0023_XZ.pdf",
+      "bytes": 1476118,
+      "sha256": "6972a435ed71ba41f168399c61e11a215817572e5236b7e882b2a75e59d0518d",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0201_O3-3a15693976.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2023/03/XO-0201_O3.pdf",
+      "bytes": 1637619,
+      "sha256": "bd4d56382bd1e9ffce2023eb263fb6e477520877cf03c75ff2407c197874156b",
+      "pages": 1
+    },
+    {
+      "path": "products/OB-f435f05d4b.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2023/02/OB.jpg",
+      "bytes": 29686,
+      "sha256": "d5c63a7c1c1332fc6ea8ad4073839e6cf62ef420c00369ff0bf0167a3873afea"
+    },
+    {
+      "path": "datasheets/OB-U-Type-312-5MHz-Datasheet-555d33b684.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/09/OB-U-Type-312.5MHz-Datasheet.pdf",
+      "bytes": 433378,
+      "sha256": "d2973e8ff036b330ebb9cf0ef8d52dd8216a221c7bda258ef41bfa471ea0c652",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/S-CAAAA-5MG02-Rev112-2012-6e4f093bc4.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02.Rev112-2012.pdf",
+      "bytes": 80748,
+      "sha256": "9089c155b2152129a4291126e3ef99b87dbca706973ea93db29178976247d73c",
+      "pages": 1
+    },
+    {
+      "path": "products/S-CAAAA-5MG02-1-0e1169365f.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02-1.jpg",
+      "bytes": 23976,
+      "sha256": "ca12195ca6a2d72569f2e9d4f8100b621605ee95e3957a198c02b16b875c1d2f"
+    },
+    {
+      "path": "datasheets/S-CAAAA-5MG05-Rev112-2012-dd31dce6a6.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG05.Rev112-2012.pdf",
+      "bytes": 80875,
+      "sha256": "d7843f5d728956e8fb5a8ee553f5a15b9891132ff9d460ca526e7cf2beab78f5",
+      "pages": 1
+    },
+    {
+      "path": "products/S-CAAAA-5MG05-268849b838.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG05.jpg",
+      "bytes": 24657,
+      "sha256": "ce1658af0c6762df561c5a181868e36a14ba37463e314a0a011f08b64df713a1"
+    },
+    {
+      "path": "datasheets/S-CAAAA-5MG02-1-a7930e3c11.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02-1.pdf",
+      "bytes": 202742,
+      "sha256": "26ff634d587fb15cb1284e9b866988cf76fefa90f7dc2acda13bb1cf50c24d34",
+      "pages": 1
+    },
+    {
+      "path": "products/S-CAAAA-5MG02-2-6792d4fcf6.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02-2.jpg",
+      "bytes": 19468,
+      "sha256": "d9e5a6db9cfa7d117847781c795c9a824f26aa074f5e161650372aa3ddcb6b30"
+    },
+    {
+      "path": "datasheets/S-CAAAB-5MG03-Rev112-2012-086d15d573.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAB-5MG03.Rev112-2012.pdf",
+      "bytes": 81518,
+      "sha256": "42867d47826b4db7e567e0a74c108d21712f0e9fd0b7b7769d1502c1f290da7e",
+      "pages": 1
+    },
+    {
+      "path": "products/S-CAAAB-5MG03-36ec9fcf9a.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAB-5MG03.jpg",
+      "bytes": 23483,
+      "sha256": "f6ee2de353b6eaad1e74ba44df77dcd04934a857824f750b8318ec664ee6a1ce"
+    },
+    {
+      "path": "datasheets/Phase-Noise-910b351c82.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/09/Phase-Noise.png",
+      "bytes": 48633,
+      "sha256": "7975b898ae4e1976572c9e694929c87ece2419d3d4141bf882d8ceb1017ed0a6"
+    },
+    {
+      "path": "products/S-ABBAB-6MH01-8c011d45b9.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MH01.jpg",
+      "bytes": 22586,
+      "sha256": "20772b3644eb64cda7fa46fbbd33b12443f9a8ad68bdc6c782d6de9225c8f81a"
+    },
+    {
+      "path": "datasheets/S-ABBAB-6MJ01-Rev11-2013-ef76c166d1.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MJ01.Rev11-2013.pdf",
+      "bytes": 81522,
+      "sha256": "f49717ec4361e6b85b0aa0a451ed9432898b8755025a3a1c02b15d042d097d04",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/S-ABBAB-6MH01-Rev112-2012-4bb901dc4f.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MH01.Rev112-2012.pdf",
+      "bytes": 80799,
+      "sha256": "f8775a7b2a3e5a9b00b0e9cfa0324250c6392045b8e313585b3d564175a540d6",
+      "pages": 1
+    },
+    {
+      "path": "products/S-ABBAB-6MJ01-051ca9c14a.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MJ01.jpg",
+      "bytes": 20722,
+      "sha256": "0c9977f8be317c10ff57a960515d19f2f52a2535ee89c4ec7ded19026595dd14"
+    },
+    {
+      "path": "products/S-CBAAB-6MG01-8ae883a13b.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG01.jpg",
+      "bytes": 25353,
+      "sha256": "4daa8e816bc916f68eeed9863c121e56eb7c96ac6c0511f2f68d122ae1aade31"
+    },
+    {
+      "path": "datasheets/S-CBAAB-6MG04-Rev112-2012-889605532f.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG04.Rev112-2012.pdf",
+      "bytes": 81286,
+      "sha256": "ac1f4c3c0bcf982094c1a1617e526b20c8368c15a3c1c580fdf805c1cb56ec2d",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0200_OB-U-fb3ac452d0.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2023/02/XO-0200_OB-U.pdf",
+      "bytes": 1463800,
+      "sha256": "ddef224a72a20cb01f694c311135bea16d660b7956edf3afb718d24ac929e84d",
+      "pages": 3
+    },
+    {
+      "path": "products/S-CBAAB-6MG04-a5f2bd481b.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG04.jpg",
+      "bytes": 24938,
+      "sha256": "fa79a2d66bd9f466c70f06c3aa99af22471e7297de454497d60bb05dcb39b0ae"
+    },
+    {
+      "path": "products/S-DBAAB-6MK01-b7a34f3f18.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-DBAAB-6MK01.jpg",
+      "bytes": 23437,
+      "sha256": "4ba2c78ed49ed2d5b8edce2d8ac5e301be4c7b52b00dc5d7fa7f43829fea6c46"
+    },
+    {
+      "path": "datasheets/S-CBAAB-6MG01-Rev112-2012-2923941889.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG01.Rev112-2012.pdf",
+      "bytes": 81609,
+      "sha256": "4bca9f4e431b6bc429573d03b716aebe312d9a51e2c455b5f5cb4379006ac849",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/S-DBAAB-6MK01-Rev112-2012-4f8975ea88.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/S-DBAAB-6MK01.Rev112-2012.pdf",
+      "bytes": 149470,
+      "sha256": "bca93fc04cdcebd6f70191554328642f2e51c868605886121a8ab491d1d45c94",
+      "pages": 1
+    },
+    {
+      "path": "products/NF-7961701251.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/12/NF.jpg",
+      "bytes": 16417,
+      "sha256": "d1f3bb199fdd9ef9bc5c345d3768db8bc735876e77b71f5d4a3cf5cadddda38a"
+    },
+    {
+      "path": "datasheets/XO-0234-NF-H-OCXO-f151428d73.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0234-NF-H-OCXO.pdf",
+      "bytes": 1526449,
+      "sha256": "c905512b837d577244949012c4e638f1c7a7da7e4865a50108eb01ef1aba7e24",
+      "pages": 3
+    },
+    {
+      "path": "products/NF-f543607f9d.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/12/NF.jpg",
+      "bytes": 16417,
+      "sha256": "d1f3bb199fdd9ef9bc5c345d3768db8bc735876e77b71f5d4a3cf5cadddda38a"
+    },
+    {
+      "path": "datasheets/XO-0036-NA_-34cde4cb89.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0036.NA_.pdf",
+      "bytes": 1249293,
+      "sha256": "146ebccb13513a6df421d3ca0da0bce0875b5998a6582e5ddba0aac38f558771",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0233-NF-T-OCXO-50327fa93a.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0233-NF-T-OCXO.pdf",
+      "bytes": 952909,
+      "sha256": "53d83d256a9b11a00bda6a1bb0eee0108dc9d973d294e2b23fc653d996efdbee",
+      "pages": 3
+    },
+    {
+      "path": "products/NJ-0591f26749.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NJ.jpg",
+      "bytes": 20896,
+      "sha256": "71a00070a8d4d2ff1c29f4a54dca820fcead30bb78fe4618584e3272aaa8a69b"
+    },
+    {
+      "path": "datasheets/XO-0175_NK-H-0f39c8bf55.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/06/XO-0175_NK-H.pdf",
+      "bytes": 242089,
+      "sha256": "e9e5bc4b798f287689d2c4d9634170e07f7aa32bafac486c204574faf4eadf25",
+      "pages": 1
+    },
+    {
+      "path": "products/NK-N-3b55434d5f.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NK-N.jpg",
+      "bytes": 23985,
+      "sha256": "7da3e7396a2e660bc5ef6d7b9691ae3cee106080f1b6105a74070501be134bfe"
+    },
+    {
+      "path": "datasheets/XO-0058_NI-a4db51ed15.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0058_NI.pdf",
+      "bytes": 1239434,
+      "sha256": "dfc0d621f551e4410f830df98e1b1ed00278148ae323c63b4b39feea642b5d90",
+      "pages": 1
+    },
+    {
+      "path": "products/NK-N-1-040eb638f6.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NK-N-1.jpg",
+      "bytes": 25692,
+      "sha256": "40fddcef47ca23939e6a4d3f2c81102c93b55eae566251ec10557f352d06b55b"
+    },
+    {
+      "path": "datasheets/XO-0145_NN-2f3dc40ab0.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0145_NN.pdf",
+      "bytes": 1458151,
+      "sha256": "06d902c81356e9a27bb18f7f3dfcabf5972b7bfd2da2d8aeb68f6b6daf030a6b",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0122_NK-N_TYPE-09b86d10f9.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0122_NK-N_TYPE.pdf",
+      "bytes": 1635074,
+      "sha256": "be37982ca7a19c80f520f346da4a5390b0d52f28fa3498fef0d569e9d30ea6b1",
+      "pages": 2
+    },
+    {
+      "path": "products/NN-e27628dc1d.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/10/NN.jpg",
+      "bytes": 21639,
+      "sha256": "01e3d46600d858839d79760669ebbb750646a8f5a6c2909e71c3f7c7f1421ab7"
+    },
+    {
+      "path": "products/NP-217a909263.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NP.jpg",
+      "bytes": 16982,
+      "sha256": "21525d1f68b6ef612b69c6157cbc3b3341c0dee22f2c26ec3ad4778f319467dc"
+    },
+    {
+      "path": "datasheets/XO-0104_TA-d705bb6672.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0104_TA.pdf",
+      "bytes": 1394262,
+      "sha256": "9e6f8598b885430d95eb5febca8fcd7d3105c069cf7d10b98f270e1bef658f99",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0043_TV-2331f41d53.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/04/XO-0043_TV.pdf",
+      "bytes": 219012,
+      "sha256": "47d23f2647e7afd2ecb29db959fc045768a48af23c2f1f6c342853a9d43a1eff",
+      "pages": 1
+    },
+    {
+      "path": "products/TV-e5dc9cbdcc.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/04/TV.jpg",
+      "bytes": 29664,
+      "sha256": "136dc0f6df5b3a9810b987904e0141f327c35cc26a796e489bae22d688a0241e"
+    },
+    {
+      "path": "datasheets/XO-0010_NP-1d76da9f2e.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0010_NP.pdf",
+      "bytes": 395922,
+      "sha256": "dcf36c997fd3b21894b207f09a835405e068561ed39c2b1e44716032ab0cc3c7",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0143_TX-J-78aecda918.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/03/XO-0143_TX-J.pdf",
+      "bytes": 445606,
+      "sha256": "2285d8098d4ed4dbaac39ac59b7b91a5fde85933d3e6c8634d7fcd2991bb8c92",
+      "pages": 1
+    },
+    {
+      "path": "products/TX-938b66e4a6.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/03/TX.jpg",
+      "bytes": 28584,
+      "sha256": "aece002b4d9496fde176c721950c29e7f6f2152a2adc803674908548ca5b9217"
+    },
+    {
+      "path": "products/TX-P-1-ffb92711e8.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/06/TX-P-1.jpg",
+      "bytes": 32897,
+      "sha256": "f589b3dc6533c922db8d3568a313ea9cd1634bb471a2d9780a5f18de18b76ee6"
+    },
+    {
+      "path": "datasheets/XO-0148_TX-P-c070e50779.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2018/06/XO-0148_TX-P.pdf",
+      "bytes": 1345234,
+      "sha256": "db788d49a5ba79af38afbd6d53dc5181de85f0ce12327fad57cea330072cf5c7",
+      "pages": 1
+    },
+    {
+      "path": "products/TX-4cf61fa184.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/TX.jpg",
+      "bytes": 28584,
+      "sha256": "aece002b4d9496fde176c721950c29e7f6f2152a2adc803674908548ca5b9217"
+    },
+    {
+      "path": "datasheets/XO-0076_TX-0314cfd4ff.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf",
+      "bytes": 1524593,
+      "sha256": "935247192b3bc3e52c86429cac153b47238bef16d9b162f400a8dbb4b0fac141",
+      "pages": 1
+    },
+    {
+      "path": "products/TY-1-8f6573c199.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/03/TY-1.jpg",
+      "bytes": 28100,
+      "sha256": "0115274489c1cfd5dab2af1af04bb4377d323a20b54705a2e3e444efb75c2eb8"
+    },
+    {
+      "path": "datasheets/XO-0046_NJ-31a3cffaaa.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0046_NJ.pdf",
+      "bytes": 524341,
+      "sha256": "dd25e8a7372f33d9bda8bb077158a13b158c719319c6773208805decf79005cf",
+      "pages": 1
+    },
+    {
+      "path": "products/TY-1-2d5c039e78.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/TY-1.jpg",
+      "bytes": 28100,
+      "sha256": "0115274489c1cfd5dab2af1af04bb4377d323a20b54705a2e3e444efb75c2eb8"
+    },
+    {
+      "path": "datasheets/XO-0144_TY-J-a19bbec4fc.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/03/XO-0144_TY-J.pdf",
+      "bytes": 507723,
+      "sha256": "ecac38f1b9864e9d3831ce5969181c75a83c8e4132280c5a9f2915c2dd6a5643",
+      "pages": 1
+    },
+    {
+      "path": "products/TZ-C-ec80163b19.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/04/TZ-C.jpg",
+      "bytes": 22074,
+      "sha256": "43026db5abbf536cdcecbc3fbd3b77354f8c4c4a40bf6989589caa450b2d3489"
+    },
+    {
+      "path": "datasheets/XO-0081_TY-0b6cdec045.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_TY.pdf",
+      "bytes": 1529525,
+      "sha256": "549b45a0845a86e96c77ad6bf8d94224319c8e4f93caf7beecd0e1e960301326",
+      "pages": 1
+    },
+    {
+      "path": "products/TP-885348e537.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/06/TP.jpg",
+      "bytes": 29573,
+      "sha256": "312e66c0b8bb743064d8ea02186a6a4f109f5ffd349f6db4818d66bdaa629d64"
+    },
+    {
+      "path": "datasheets/XO-0220-TW-TYPE-for-Stratum3-VCTCXO-81e38c7f00.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/XO-0220-TW-TYPE-for-Stratum3-VCTCXO.pdf",
+      "bytes": 1510216,
+      "sha256": "ae2e344b4fe8c59653ebd505666fa2a1e4f60f00c657841e2a5f431cbd692cfe",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/XO-0142_TZ-74dd83449a.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/10/XO-0142_TZ.pdf",
+      "bytes": 1000280,
+      "sha256": "1c73eab5495b5367208259bfb40e8fae96d3628bb4654cef16270fdc1851778b",
+      "pages": 2
+    },
+    {
+      "path": "datasheets/XO-0221-TP-Type-for-Stratum3-f764c88633.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/06/XO-0221-TP-Type-for-Stratum3.pdf",
+      "bytes": 1398661,
+      "sha256": "3988ffe6c5a612355f75d3e394907e91ec008f4740ac13a89bb9cc50e3477a0e",
+      "pages": 1
+    },
+    {
+      "path": "products/TW-1-66307a1d15.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/TW-1.jpg",
+      "bytes": 28350,
+      "sha256": "618a57ed5570dc1f2ec7c09146c0b262e8b24d6cb31e7de45aa96e8704fb6649"
+    },
+    {
+      "path": "datasheets/B3-Thermistor-Crystal-Datasheet-72015eadbe.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/08/B3-Thermistor-Crystal-Datasheet.pdf",
+      "bytes": 1549530,
+      "sha256": "4ab6a5a3230524f4839ef18f9fd9ee1f17841ce88456f6a18a3bcc0012cdd082",
+      "pages": 1
+    },
+    {
+      "path": "datasheets/Model-Numbering-Guide_TSX-938a836589.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/08/Model-Numbering-Guide_TSX.pdf",
+      "bytes": 278643,
+      "sha256": "30a6f2f6400c93f3c644f8aa3d8cb2a62346ee9a46588a1ea44ca7b7088f844f",
+      "pages": 1
+    },
+    {
+      "path": "products/XB2060-393944aa03.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XB2060.jpg",
+      "bytes": 12457,
+      "sha256": "630a74d90a5a9eeaa349a1a9d17ec56943e3187a3041411c841a0f53efc8fa62"
+    },
+    {
+      "path": "datasheets/32-768KHz-Tuning-Fork-Rev207-2014-d5cd04fae4.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/32.768KHz-Tuning-Fork-Rev207-2014.pdf",
+      "bytes": 740892,
+      "sha256": "f4e9b28fa6fe6f10fe34d105e425db8ab03936d2e3f9f1c163c022d1defc90fe",
+      "pages": 2
+    },
+    {
+      "path": "products/XD1610-1-c4185e0048.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/02/XD1610-1.jpg",
+      "bytes": 40065,
+      "sha256": "b5644c2bd495a91e193bb0579e6ec26f4e93501dd5f0e9c86e4c9d6d7d1c9e3d"
+    },
+    {
+      "path": "datasheets/AT-0026_TuningFork-4ef947f770.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/09/AT-0026_TuningFork.pdf",
+      "bytes": 756504,
+      "sha256": "34a7ab49d4baa4cb2feae84375293d46ef673bc333ef8e53e9163f35d110b71d",
+      "pages": 2
+    },
+    {
+      "path": "products/XD1210-84abcef7d3.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/02/XD1210.jpg",
+      "bytes": 42580,
+      "sha256": "6d95400bb1eff8917125c58985aa715de792ea55ad814e6f700f09b02960478c"
+    },
+    {
+      "path": "products/XD3215-772e1ccef7.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XD3215.jpg",
+      "bytes": 23249,
+      "sha256": "01ff7fd0f130d97778861aab2d4cc18393b403ca9d9a1557e4efde5521514488"
+    },
+    {
+      "path": "products/XD2012-4c1f633ed0.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2015/12/XD2012.jpg",
+      "bytes": 24916,
+      "sha256": "4752b907a83fb3623a06f1a0e7254674ea30abeb310bbc54572f15fc01633763"
+    },
+    {
+      "path": "products/TP-693973be14.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2023/10/TP.jpg",
+      "bytes": 29573,
+      "sha256": "312e66c0b8bb743064d8ea02186a6a4f109f5ffd349f6db4818d66bdaa629d64"
+    },
+    {
+      "path": "datasheets/XO-0208-TP-Type-High-Precision-and-Low-G-Sensitivity-3-2-x-2-5-mm-SMD-VCTCXO-6f79b773fa.pdf",
+      "sourceUrl": "https://www.taitien.com/tw/wp-content/uploads/sites/2/2023/10/XO-0208-TP-Type-High-Precision-and-Low-G-Sensitivity-3.2-x-2.5-mm-SMD-VCTCXO.pdf",
+      "bytes": 1557575,
+      "sha256": "902229f6b38b2ffa530ca024b62556bb2d003873645cf2dbf5f2e6286e8dab8f",
+      "pages": 1
+    },
+    {
+      "path": "products/DT-5151-9927cab81e.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2022/04/DT-5151.jpg",
+      "bytes": 18008,
+      "sha256": "32359055eb1cb480455b870843cd3392127b895918c4950b06f2521fc6756135"
+    },
+    {
+      "path": "datasheets/DT-5151-3a94301ae8.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2022/04/DT-5151.pdf",
+      "bytes": 1875870,
+      "sha256": "3f92cf6e13635e8bd84160a7dda44ab02e122f379aab7f8ab56d821256b3293c",
+      "pages": 3
+    },
+    {
+      "path": "products/DT-6565-2-fc47637b70.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/03/DT-6565-2.jpg",
+      "bytes": 15694,
+      "sha256": "158ad62f445e8c32eae3a9e35ae7d863d868bbe096d5fdb6d5486e6a03abdde7"
+    },
+    {
+      "path": "datasheets/DT-6565-f060237a98.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/03/DT-6565.pdf",
+      "bytes": 345787,
+      "sha256": "f7faca0b0d4d6293e2fd317d1c1a57606c25992b4c7cf8f5e7d342d389400256",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/Ultra-Low-G-Sensitivity-OCXO_NA-100M-6700-18eed1603a.pdf",
+      "sourceUrl": "https://www.taitien.com/tw/wp-content/uploads/sites/2/2023/12/Ultra-Low-G-Sensitivity-OCXO_NA-100M-6700.pdf",
+      "bytes": 1657941,
+      "sha256": "b8089e35ccc5fc4a4e1a69838c6e743cf3f2c8793787fe2399d7a7e6fefee322",
+      "pages": 3
+    },
+    {
+      "path": "products/b3-thermistor-crystal-07ad1ed384.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/08/b3-thermistor-crystal.png",
+      "bytes": 84731,
+      "sha256": "ac76277e723242bd94b6c004ef262bde5c94116f4b99ffadb63526275dee8ce5"
+    },
+    {
+      "path": "datasheets/OA-U-a7dee14a18.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/04/OA-U.pdf",
+      "bytes": 1441892,
+      "sha256": "44424e1a26e1b6803cf05659d6d6568d7e4bff47d1de48d996b52f83208986a5",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/XO-0094_OT-U-4b3e861763.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2017/12/XO-0094_OT-U.pdf",
+      "bytes": 1811083,
+      "sha256": "ff011b35afbd29d11eedad98dc2e7eaeef9d7410df687c9a27bcf7e328ed37d1",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/OW-U-8a51a3929e.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2021/05/OW-U.pdf",
+      "bytes": 1814613,
+      "sha256": "fbf3da163ea13d9c5212f165c4ec7529e6b108549fe815776562d3cb32a1add4",
+      "pages": 3
+    },
+    {
+      "path": "products/OO-U-c22bfb9cd8.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/07/OO-U.jpg",
+      "bytes": 26303,
+      "sha256": "11099f190e0b56d69f71b8b1cf76f6b6d13eba9f935ca78de8364a2d6fb86fcf"
+    },
+    {
+      "path": "datasheets/XO-0120_NA-100M-6800_Series-3f9afdb165.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0120_NA-100M-6800_Series.pdf",
+      "bytes": 1615857,
+      "sha256": "7c6a5f6bdff4bf50535f037336021cf322f9d96d440a1ecff7e97caffe2b4616",
+      "pages": 4
+    },
+    {
+      "path": "datasheets/Ultra-Low-Phase-Noise-Crystal-Oscillator_Phase-Noise-Chart-53c10b7377.png",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/07/Ultra-Low-Phase-Noise-Crystal-Oscillator_Phase-Noise-Chart.png",
+      "bytes": 95310,
+      "sha256": "3c4438810f5b3e96a543cc93482befbc4e1196c62e5c4233a922a5e367a5bbdf"
+    },
+    {
+      "path": "datasheets/XO-0211-2-0-x-1-6-mm-Ultra-Low-Noise-SMD-Differential-Output-Crystal-Oscillator-OO-U-Type-7945a66c64.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/07/XO-0211-2.0-x-1.6-mm-Ultra-Low-Noise-SMD-Differential-Output-Crystal-Oscillator-OO-U-Type.pdf",
+      "bytes": 1687826,
+      "sha256": "41eaf0466ae52805dba8d31842c4198014fa13550e29e97e710a62653e50a625",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/NA-100M-6900_Series-27f55011b6.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NA-100M-6900_Series-.pdf",
+      "bytes": 1423350,
+      "sha256": "ccda0f3b57759ccc2ddac2a90c59da91375e68773d52c0e100c9bcd9af9a6e75",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/XO-0123_NA-10M-6800_series_Rev3_012016-5309db6079.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/03/XO-0123_NA-10M-6800_series_Rev3_012016.pdf",
+      "bytes": 1734281,
+      "sha256": "fde7a6257dc1bc8a502ecb97a105a96069c501faeaed523f7a22ceff34f0edf4",
+      "pages": 4
+    },
+    {
+      "path": "datasheets/NF-100M-6800-00bfbeab1d.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/12/NF-100M-6800.pdf",
+      "bytes": 962892,
+      "sha256": "d47601df04368bdcb2198772abbf5a172702c5326dad80be379688232497d533",
+      "pages": 4
+    },
+    {
+      "path": "datasheets/Ultra-Low-G-Sensitivity-OCXO_NI-100M-6700-62959a2f3b.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2020/10/Ultra-Low-G-Sensitivity-OCXO_NI-100M-6700.pdf",
+      "bytes": 527827,
+      "sha256": "fb4c0e46c69da9cea569738356ea54d5dcd36c78ea3bb19a49e0e1fdb2269a80",
+      "pages": 3
+    },
+    {
+      "path": "products/NJ-1-c66318bb6c.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/NJ-1.jpg",
+      "bytes": 20896,
+      "sha256": "71a00070a8d4d2ff1c29f4a54dca820fcead30bb78fe4618584e3272aaa8a69b"
+    },
+    {
+      "path": "datasheets/XO-0136_NJ-10M-6800_series-be465b13a5.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0136_NJ-10M-6800_series.pdf",
+      "bytes": 472469,
+      "sha256": "62feb6a32456a7fa5860df48bcc7731015ce9e0b19998fb39144349c66798137",
+      "pages": 4
+    },
+    {
+      "path": "products/VLCU-1c39837af8.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/VLCU.jpg",
+      "bytes": 23962,
+      "sha256": "a1650460c926a925362afc9db2df07eaadc9c9a8f2c4f2fc58743f981daa7a55"
+    },
+    {
+      "path": "datasheets/XO-0124_NJ-100M-6800_series-f851b9774e.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0124_NJ-100M-6800_series.pdf",
+      "bytes": 478832,
+      "sha256": "147957252be76742ba737cf2571f693625ea4b2d2563bcb2d5834881e8c16784",
+      "pages": 4
+    },
+    {
+      "path": "datasheets/XO-0121_VL_SERIES-Rev207-2015-d2afa70a42.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0121_VL_SERIES-Rev207-2015.pdf",
+      "bytes": 2351399,
+      "sha256": "889166f7eb142d616b1298eab022733c1f94a042b938b15267e5d1c5badf826d",
+      "pages": 2
+    },
+    {
+      "path": "products/DTA-450-c80459f630.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/02/DTA-450.jpg",
+      "bytes": 17095,
+      "sha256": "8b9ab782aed5fd819d30a9788d938e30cd476d73de2ea4bde21469b843e2680e"
+    },
+    {
+      "path": "datasheets/DTQ-100A-series-20230613-f47e20d6db.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/10/DTQ-100A-series-20230613.pdf",
+      "bytes": 329070,
+      "sha256": "01da89aca0f1bee5b164034e1822dad547c81ab3489f9167c91e10cefc358df5",
+      "pages": 3
+    },
+    {
+      "path": "products/DTQ-100A-36b7859619.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/10/DTQ-100A.jpg",
+      "bytes": 64389,
+      "sha256": "4222289bdb3dc436fe53df50d28879f485a5fb96fe81611b3bf6c5c360a4e773"
+    },
+    {
+      "path": "datasheets/Taitien-Low-Power-Atomic-Oscillator-DTA-450-abf52de403.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/02/Taitien-Low-Power-Atomic-Oscillator-DTA-450.pdf",
+      "bytes": 1401949,
+      "sha256": "09c1bf66315885da454b77093db83c03b62d1902149937bc0dce5f3d7d8c6cac",
+      "pages": 2
+    },
+    {
+      "path": "products/NF-10M-7000-75d07d68ad.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/10/NF-10M-7000.jpg",
+      "bytes": 55471,
+      "sha256": "30d80d138281077ebf076fed9bb7de2bda224507ceab269d4ae8341db3d24330"
+    },
+    {
+      "path": "datasheets/XO-0171_VLEU-c2da4f5c34.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2019/07/XO-0171_VLEU.pdf",
+      "bytes": 1525006,
+      "sha256": "1e507bdb41dce6ebfe539cb4d2df9781b082038e33cdf2ae7bc638e082914025",
+      "pages": 2
+    },
+    {
+      "path": "products/NF-16M384-7000-68049a6389.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/10/NF-16M384-7000.jpg",
+      "bytes": 53467,
+      "sha256": "2e53945eaa9a52e12a347f76e038eefc75676b420edfcba248a25e4c852741cb"
+    },
+    {
+      "path": "datasheets/NF-10M-7000-Series-20240624-931bdef8bf.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/10/NF-10M-7000-Series-20240624.pdf",
+      "bytes": 774081,
+      "sha256": "c7f90fe5473d7e72e8c0e9a35e393b9969484bfdebd65bb7aa4ea8165c681c0f",
+      "pages": 3
+    },
+    {
+      "path": "products/NP-f591c39b43.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/04/NP.jpg",
+      "bytes": 16982,
+      "sha256": "21525d1f68b6ef612b69c6157cbc3b3341c0dee22f2c26ec3ad4778f319467dc"
+    },
+    {
+      "path": "datasheets/NF-16-384-7000-Series-ab9dbb30b8.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2024/10/NF-16-384-7000-Series.pdf",
+      "bytes": 794360,
+      "sha256": "f4510fe3c80f2547c79d9ae804c976425aff740c141c31871148876fbebacbcb",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/XO-0237-Ultra-Low-Power-100MHz-OCXO-NP-100M-7000-Series-13a3c43b32.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/04/XO-0237-Ultra-Low-Power-100MHz-OCXO-NP-100M-7000-Series.pdf",
+      "bytes": 954462,
+      "sha256": "4b28847ecb046b1320a2e29a5163bb71c187f3f0ae32cf73987c410c52053400",
+      "pages": 3
+    },
+    {
+      "path": "products/NP-15857b5a52.jpg",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/NP.jpg",
+      "bytes": 16982,
+      "sha256": "21525d1f68b6ef612b69c6157cbc3b3341c0dee22f2c26ec3ad4778f319467dc"
+    },
+    {
+      "path": "datasheets/NP-16-384M-7000-Series-36061d50c1.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2025/05/NP-16-384M-7000-Series.pdf",
+      "bytes": 1372282,
+      "sha256": "3bd686435b7a077f7469523a19d934284600ff170fb0b47d69b5d1d3460a235a",
+      "pages": 3
+    },
+    {
+      "path": "datasheets/XO-0236-Ultra-Low-Power-10MHz-OCXO-NP-10M-7000-Series-327c4faad4.pdf",
+      "sourceUrl": "https://www.taitien.com/wp-content/uploads/2026/04/XO-0236-Ultra-Low-Power-10MHz-OCXO-NP-10M-7000-Series.pdf",
+      "bytes": 1727088,
+      "sha256": "e76bac21a3b2eb071b227428c127b36511f3e61db52861a1d91a27c7e29efa80",
+      "pages": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "crystal-oscillator-programmer-pxw-3",
+      "model": "PXW-3",
+      "sourceTitle": "Crystal Oscillator Programmer – PXW-3",
+      "sourceUrl": "https://www.taitien.com/ti-products/crystal-oscillator-programmer-pxw-3",
+      "sourceModified": "2026-05-04",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/03/PXW-3_Crystal%20Oscillator%20Programmer.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2026/05/PXW-3.png"
+    },
+    {
+      "id": "double-oven-ocxo-series-ni-10m-3600-type",
+      "model": "NI-10M-3600",
+      "sourceTitle": "Double Oven OCXO Series – NI-10M-3600 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/double-oven-ocxo-series-ni-10m-3600-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/07/NI-10M-3600.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2026/07/NI-10M-3600-e1784864790368.png"
+    },
+    {
+      "id": "emi-reduction-spread-spectrum-series-sx-type",
+      "model": "SX",
+      "sourceTitle": "EMI Reduction Spread Spectrum Series – SX Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/emi-reduction-spread-spectrum-series-sx-type",
+      "sourceModified": "2024-11-26",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/11/SX-Type-EMI-Reduction-Spread-Spectrum-Crystal-Oscillator-3.2-x-2.5-x-0.95-mm-SMD-package-20240710.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg"
+    },
+    {
+      "id": "emi-reduction-spread-spectrum-series-sy-type",
+      "model": "SY",
+      "sourceTitle": "EMI Reduction Spread Spectrum Series – SY Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/emi-reduction-spread-spectrum-series-sy-type",
+      "sourceModified": "2024-11-26",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/11/XO-0213-SY-Type-EMI-Reduction-Spread-Spectrum-Crystal-Oscillator-2.5-x-2.0-x-0.8-mm-SMD-package.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "equipment-qwa-5a",
+      "model": "QWA-5A",
+      "sourceTitle": "Quartz Watch Analyzer – QWA-5A",
+      "sourceUrl": "https://www.taitien.com/ti-products/equipment-qwa-5a",
+      "sourceModified": "2026-05-05",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/QWA-5A.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/QWA-5A-High-e1777943806315.png"
+    },
+    {
+      "id": "extended-operating-temp-series-ox-type",
+      "model": "OX",
+      "sourceTitle": "Extended Operating Temp Series – OX Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/extended-operating-temp-series-ox-type",
+      "sourceModified": "2025-04-29",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0109-OX-OY.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg"
+    },
+    {
+      "id": "extended-operating-temp-series-oy-type",
+      "model": "OY",
+      "sourceTitle": "Extended Operating Temp Series – OY Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/extended-operating-temp-series-oy-type",
+      "sourceModified": "2025-04-29",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0109-OX-OY.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "fast-delivery-ocxo-series-na-10m-2000-type",
+      "model": "NA-10M-2000",
+      "sourceTitle": "Fast Delivery OCXO Series – NA-10M-2000 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fast-delivery-ocxo-series-na-10m-2000-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NA.10M.2000.Rev_.112-2012.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "fast-delivery-ocxo-series-na-10m-2400-type",
+      "model": "NA-10M-2400",
+      "sourceTitle": "Fast Delivery OCXO Series – NA-10M-2400 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fast-delivery-ocxo-series-na-10m-2400-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NA.10M.2400.Rev_.109-2014.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "fast-delivery-ocxo-series-na-10m-2500-type",
+      "model": "NA-10M-2500",
+      "sourceTitle": "Fast Delivery OCXO Series – NA-10M-2500 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fast-delivery-ocxo-series-na-10m-2500-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NA-10M-2500.Rev_.16-2013.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "fast-delivery-ocxo-series-ni-10m-2400-type",
+      "model": "NI-10M-2400",
+      "sourceTitle": "Fast Delivery OCXO Series – NI-10M-2400 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fast-delivery-ocxo-series-ni-10m-2400-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NI.10M.2400.Rev111.2012.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2020/10/NI.jpg"
+    },
+    {
+      "id": "fast-delivery-ocxo-series-ni-10m-2500-type",
+      "model": "NI-10M-2500",
+      "sourceTitle": "Fast Delivery OCXO Series – NI-10M-2500 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fast-delivery-ocxo-series-ni-10m-2500-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NI-10M-2500.Rev16-2013.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2021/02/NI.jpg"
+    },
+    {
+      "id": "fast-delivery-ocxo-series-ni-10m-2800-type",
+      "model": "NI-10M-2800",
+      "sourceTitle": "Fast Delivery OCXO Series – NI-10M-2800 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fast-delivery-ocxo-series-ni-10m-2800-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NI-10M-2800.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2021/02/NI.jpg"
+    },
+    {
+      "id": "fast-delivery-ocxo-series-ni-10m-2900-type",
+      "model": "NI-100M-2900",
+      "sourceTitle": "Fast Delivery OCXO Series – NI-100M-2900 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fast-delivery-ocxo-series-ni-10m-2900-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NI-100M-2900.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2020/10/NI.jpg"
+    },
+    {
+      "id": "fastvcxo-fast-delivery-vcxo-series-va-m-cmos-type",
+      "model": "VA-M",
+      "sourceTitle": "FASTVCXO, Fast Delivery VCXO Series – VA-M CMOS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastvcxo-fast-delivery-vcxo-series-va-m-cmos-type",
+      "sourceModified": "2026-06-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0151_VA-M_CMOS.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2018/07/VA-M-1.jpg"
+    },
+    {
+      "id": "fastvcxo-fast-delivery-vcxo-series-va-m-lvpecl-lvds-type",
+      "model": "VA-M",
+      "sourceTitle": "FASTVCXO, Fast Delivery VCXO Series – VA-M LVPECL/LVDS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastvcxo-fast-delivery-vcxo-series-va-m-lvpecl-lvds-type",
+      "sourceModified": "2023-05-26",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0152_VA-M_LVPECL.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2018/07/VA-M-2.jpg"
+    },
+    {
+      "id": "fastvcxo-fast-delivery-vcxo-series-vt-m-cmos-type",
+      "model": "VT-M",
+      "sourceTitle": "FASTVCXO, Fast Delivery VCXO Series – VT-M CMOS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastvcxo-fast-delivery-vcxo-series-vt-m-cmos-type",
+      "sourceModified": "2026-06-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0052-VT-MCMOS-Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/VT-M.jpg"
+    },
+    {
+      "id": "fastvcxo-fast-delivery-vcxo-series-vt-m-lvpecl-type",
+      "model": "VT-M",
+      "sourceTitle": "FASTVCXO, Fast Delivery VCXO Series – VT-M LVPECL Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastvcxo-fast-delivery-vcxo-series-vt-m-lvpecl-type",
+      "sourceModified": "2023-11-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0048-VT-MLVPECL-Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/VT-M-1.jpg"
+    },
+    {
+      "id": "fastvcxo-fast-delivery-vcxo-series-vw-m-cmos-type",
+      "model": "VW-M",
+      "sourceTitle": "FASTVCXO, Fast Delivery VCXO Series – VW-M CMOS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastvcxo-fast-delivery-vcxo-series-vw-m-cmos-type",
+      "sourceModified": "2026-06-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2017/11/XO-0147_VW-M_CMOS.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2017/11/VW-M.jpg"
+    },
+    {
+      "id": "fastvcxo-fast-delivery-vcxo-series-vw-m-lvpecl-lvds-type",
+      "model": "VW-M",
+      "sourceTitle": "FASTVCXO, Fast Delivery VCXO Series – VW-M LVPECL/LVDS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastvcxo-fast-delivery-vcxo-series-vw-m-lvpecl-lvds-type",
+      "sourceModified": "2026-06-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2017/12/XO-0146-VW-M-LVPECL_LVDS.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2017/12/VW-M.jpg"
+    },
+    {
+      "id": "fastxo-fast-delivery-crystal-oscillator-p4-u-type",
+      "model": "P4-U",
+      "sourceTitle": "FASTXO, Fast Delivery Crystal Oscillator – P4-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-fast-delivery-crystal-oscillator-p4-u-type",
+      "sourceModified": "2025-06-04",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/05/taitien-1.2x1.0mm-ultra-small-tcxo-fastxo-p4-u-datasheet.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/05/P4-U.jpg"
+    },
+    {
+      "id": "fastxo-oa-m-cmos-type",
+      "model": "OA-M",
+      "sourceTitle": "FASTXO – OA-M CMOS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-oa-m-cmos-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0149_OA-M_CMOS.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/10/OA-M.jpg"
+    },
+    {
+      "id": "fastxo-oa-m-lvpecl-lvds-type",
+      "model": "OA-M",
+      "sourceTitle": "FASTXO – OA-M LVPECL/LVDS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-oa-m-lvpecl-lvds-type",
+      "sourceModified": "2023-12-27",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2018/07/XO-0150_OA-M_LVPECL.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/10/OA.jpg"
+    },
+    {
+      "id": "fastxo-od-m-type",
+      "model": "OD-M",
+      "sourceTitle": "FASTXO – OD-M Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-od-m-type",
+      "sourceModified": "2024-05-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0157_OD-M.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/01/OD-M.jpg"
+    },
+    {
+      "id": "fastxo-od-p-type",
+      "model": "OD-P",
+      "sourceTitle": "FASTXO – OD-P Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-od-p-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0158_OD-P.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/01/OD-P.jpg"
+    },
+    {
+      "id": "fastxo-oj-m-type",
+      "model": "OJ-M",
+      "sourceTitle": "FASTXO – OJ-M Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-oj-m-type",
+      "sourceModified": "2024-05-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/05/XO-0164_OJ-M.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/05/OJ-M-1.jpg"
+    },
+    {
+      "id": "fastxo-ot-m-cmos-type",
+      "model": "OT-M",
+      "sourceTitle": "FASTXO – OT-M CMOS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-ot-m-cmos-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0117-OT-M-CMOS.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/OT-M-2.jpg"
+    },
+    {
+      "id": "fastxo-ot-m-lvpecl-lvds-type",
+      "model": "OT-M",
+      "sourceTitle": "FASTXO – OT-M LVPECL/LVDS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-ot-m-lvpecl-lvds-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0113-OT-M-Type-7.0X5.0mm-SMD-LVPECL-LVDS-Crystal-Oscillator.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/OT-M-2.jpg"
+    },
+    {
+      "id": "fastxo-ow-m-cmos-type",
+      "model": "OW-M",
+      "sourceTitle": "FASTXO – OW-M CMOS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-ow-m-cmos-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0116-OW-M-CMOS.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/OW-M.jpg"
+    },
+    {
+      "id": "fastxo-ow-m-lvpecl-lvds-type",
+      "model": "OW-M",
+      "sourceTitle": "FASTXO – OW-M LVPECL/LVDS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-ow-m-lvpecl-lvds-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0114-OW-M-LVPECL-LVDS.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/OW-M.jpg"
+    },
+    {
+      "id": "fastxo-pc-u-type",
+      "model": "PC-U",
+      "sourceTitle": "FASTXO – PC-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-pc-u-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/05/XO-0166_PC-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PC-U.jpg"
+    },
+    {
+      "id": "fastxo-pv-u-type",
+      "model": "PV-U",
+      "sourceTitle": "FASTXO – PV-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-pv-u-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/07/XO-0165_PV-U-.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PV-U-1.jpg"
+    },
+    {
+      "id": "fastxo-px-u-type",
+      "model": "PX-U",
+      "sourceTitle": "FASTXO – PX-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-px-u-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/07/XO-0167_PX-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg"
+    },
+    {
+      "id": "fastxo-py-u-type",
+      "model": "PY-U",
+      "sourceTitle": "FASTXO – PY-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-py-u-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/10/PY-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "fastxo-pz-u-type",
+      "model": "PZ-U",
+      "sourceTitle": "FASTXO, Fast Delivery Crystal Oscillator – PZ-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/fastxo-pz-u-type",
+      "sourceModified": "2024-05-03",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/05/XO-0169_PZ-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/05/pz-u.jpg"
+    },
+    {
+      "id": "gps-disciplined-oscillator-gpsdo-gt-11-series",
+      "model": "GT-11",
+      "sourceTitle": "GPS Disciplined Oscillator (GPSDO) GT-11 series",
+      "sourceUrl": "https://www.taitien.com/ti-products/gps-disciplined-oscillator-gpsdo-gt-11-series",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2023/02/GPS-Disciplined-Oscillator-GPSDO-GT-11-series.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2020/11/GT-11.jpg"
+    },
+    {
+      "id": "high-frequency-and-low-noise-differential-vctcxo-tcxo-tx-u-type",
+      "model": "TX-U",
+      "sourceTitle": "High Frequency and Low Noise Differential VCTCXO/TCXO – TX-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-frequency-and-low-noise-differential-vctcxo-tcxo-tx-u-type",
+      "sourceModified": "2025-12-22",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0232-TX-U-Type-High-Frequency-and-Low-Noise-3.2-x-2.5-mm-Differential-Output-TCXO-and-VCTCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/12/TX-U.png"
+    },
+    {
+      "id": "high-precision-and-wide-temperature-vctcxo-tcxo-tw-f-type",
+      "model": "TW-F",
+      "sourceTitle": "High Precision and Wide Temperature VCTCXO/TCXO – TW-F Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-and-wide-temperature-vctcxo-tcxo-tw-f-type",
+      "sourceModified": "2025-06-04",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/05/Taitien-Ultra-Wide-Temperature-VCTCXO-TW-F.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/05/TW.jpg"
+    },
+    {
+      "id": "high-precision-crystal-x5-type",
+      "model": "X5",
+      "sourceTitle": "High Precision Crystal – X5 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-crystal-x5-type",
+      "sourceModified": "2023-03-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0128_X5_TYPE.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/X5.jpg"
+    },
+    {
+      "id": "high-precision-crystal-x6-type",
+      "model": "X6",
+      "sourceTitle": "High Precision Crystal – X6 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-crystal-x6-type",
+      "sourceModified": "2023-03-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0127_X6_TYPE.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/X6.jpg"
+    },
+    {
+      "id": "high-precision-crystal-x7-type",
+      "model": "X7",
+      "sourceTitle": "High Precision Crystal – X7 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-crystal-x7-type",
+      "sourceModified": "2023-03-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0125_X7_TYPE.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/X7.jpg"
+    },
+    {
+      "id": "high-precision-crystal-x8-type",
+      "model": "X8",
+      "sourceTitle": "High Precision Crystal – X8 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-crystal-x8-type",
+      "sourceModified": "2023-03-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0126_X8_TYPE.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/X8.jpg"
+    },
+    {
+      "id": "high-precision-crystal-xh-type",
+      "model": "XH",
+      "sourceTitle": "High Precision Crystal – XH Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-crystal-xh-type",
+      "sourceModified": "2023-03-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0129_XH_TYPE.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XH.jpg"
+    },
+    {
+      "id": "high-precision-series-ox-b-type",
+      "model": "OX-B",
+      "sourceTitle": "High Precision Series – OX-B Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-series-ox-b-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2023/01/OX-B_OY-B.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg"
+    },
+    {
+      "id": "high-precision-series-oy-b-type",
+      "model": "OY-B",
+      "sourceTitle": "High Precision Series – OY-B Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-series-oy-b-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2023/01/OX-B_OY-B.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-stratum-3-tl-type",
+      "model": "TL",
+      "sourceTitle": "Stratum 3 VCTCXO – Stratum 3 TL Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-stratum-3-tl-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2021/11/XO-0192-TL-STRATUM3.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2021/11/TL.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-stratum3-ts-type",
+      "model": "TS",
+      "sourceTitle": "Stratum 3 VCTCXO – Stratum 3 TS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-stratum3-ts-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0074_TS_STRATUM3.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TS_Stratum-3.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-stratum3-tt-type",
+      "model": "TT",
+      "sourceTitle": "Stratum 3 VCTCXO – Stratum 3 TT Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-stratum3-tt-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0088_TT_STRATUM3.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TT_Stratum-3.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-tk-type",
+      "model": "TK",
+      "sourceTitle": "High Frequency, High Stability, Very Low Noise VCTCXO – TK Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-tk-type",
+      "sourceModified": "2023-06-20",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2020/05/TK-Type-High-Frequency-Very-Low-Noise-TCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/TK.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-tl-type",
+      "model": "TL-F",
+      "sourceTitle": "High Precision and Wide Temperature VCTCXO/TCXO – TL-F Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-tl-type",
+      "sourceModified": "2025-05-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/03/TL-F-Type-Ultra-High-Temperature-VCTCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/03/TL.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-ts-k-type",
+      "model": "TS-F",
+      "sourceTitle": "High Precision and Wide Temperature VCTCXO/TCXO – TS-F Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-ts-k-type",
+      "sourceModified": "2025-04-29",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/03/TS-F-Type-Ultra-High-Temperature-VCTCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TS_Stratum-3.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-ts-type",
+      "model": "TS",
+      "sourceTitle": "High Precision VCTCXO/TCXO – TS Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-ts-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/TS.Rev36-2013.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TS_Stratum-3.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-tt-k-type",
+      "model": "TT-F",
+      "sourceTitle": "High Precision and Wide Temperature VCTCXO/TCXO – TT-F Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-tt-k-type",
+      "sourceModified": "2025-04-29",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/03/TT-F-Type-Ultra-High-Temperature-VCTCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TT_Stratum-3.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-tt-l-type",
+      "model": "TT-L",
+      "sourceTitle": "Ultra Low G Sensitivity VCTCXO/TCXO – TT-L",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-tt-l-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2020/01/XO-0173_TT-L.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2020/01/TT-L-2.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-tt-type",
+      "model": "TT",
+      "sourceTitle": "High Precision VCTCXO/TCXO – TT Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-tt-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0087_TT.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TT_Stratum-3.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-tu-type",
+      "model": "TU",
+      "sourceTitle": "High Frequency, High Stability, Very Low Noise VCTCXO – TU Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-tu-type",
+      "sourceModified": "2023-06-20",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2021/03/XO-0185-TU_TYPE.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2021/03/TU.jpg"
+    },
+    {
+      "id": "high-precision-tcxo-series-tw-type",
+      "model": "TW",
+      "sourceTitle": "High Precision VCTCXO/TCXO – TW Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-tcxo-series-tw-type",
+      "sourceModified": "2025-05-14",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0084_TW_TYPE_TCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TW.jpg"
+    },
+    {
+      "id": "high-precision-vctcxo-tcxo-tl-type",
+      "model": "TL",
+      "sourceTitle": "High Precision VCTCXO/TCXO – TL Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/high-precision-vctcxo-tcxo-tl-type",
+      "sourceModified": "2025-06-05",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/06/XO-0161-TL-Type-High-Precision-TCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/06/TL.jpg"
+    },
+    {
+      "id": "khz-range-crystal-oscillator-series-low-current-consumption-oy-d-type",
+      "model": "OY-D",
+      "sourceTitle": "kHz Range Crystal Oscillator Series – Low Current Consumption OY-D Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-range-crystal-oscillator-series-low-current-consumption-oy-d-type",
+      "sourceModified": "2026-08-14",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2022/04/XO-0195-OY-D-Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "khz-range-crystal-oscillator-series-low-current-consumption-oy-i-type",
+      "model": "OY-I",
+      "sourceTitle": "kHz Range Crystal Oscillator Series – OY-I Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-range-crystal-oscillator-series-low-current-consumption-oy-i-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2018/12/XO-0153-OY-I.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "khz-range-crystal-oscillator-series-low-current-consumption-oz-d-type",
+      "model": "OZ-D",
+      "sourceTitle": "kHz Range Crystal Oscillator Series – Low Current Consumption OZ-D Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-range-crystal-oscillator-series-low-current-consumption-oz-d-type",
+      "sourceModified": "2024-10-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2022/04/OZD_20220420.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2022/04/OZ.jpg"
+    },
+    {
+      "id": "khz-range-crystal-oscillator-series-low-current-consumption-oz-i-type",
+      "model": "OZ-I",
+      "sourceTitle": "kHz Range Crystal Oscillator Series – OZ-I Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-range-crystal-oscillator-series-low-current-consumption-oz-i-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2020/01/XO-0174_OZ-I.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/05/pz-u.jpg"
+    },
+    {
+      "id": "khz-range-crystal-oscillator-series-ox-i-type",
+      "model": "OX-I",
+      "sourceTitle": "kHz Range Crystal Oscillator Series – OX-I Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-range-crystal-oscillator-series-ox-i-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/10/Low-Current-Consumption-32.768kHz-OX-I-TYPE.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/10/OX-I.jpg"
+    },
+    {
+      "id": "khz-range-crystal-oscillator-series-ox-type",
+      "model": "OX",
+      "sourceTitle": "kHz Range Crystal Oscillator Series – OX Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-range-crystal-oscillator-series-ox-type",
+      "sourceModified": "2026-08-20",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0108_32.768K_OX_OY.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg"
+    },
+    {
+      "id": "khz-range-crystal-oscillator-series-oy-type",
+      "model": "OY",
+      "sourceTitle": "kHz Range Crystal Oscillator Series – OY Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-range-crystal-oscillator-series-oy-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0108_32.768K_OX_OY.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "khz-tcxo-tx-d-type",
+      "model": "TX-D",
+      "sourceTitle": "KHz TCXO – TX-D Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/khz-tcxo-tx-d-type",
+      "sourceModified": "2026-05-06",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/03/XO-0210-TX-D-Type-32.768KHz-3.2-x-2.5-mm-SMD-CMOS-TCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2024/03/TX-D.jpg"
+    },
+    {
+      "id": "low-phase-noise-low-g-sensitivity-ocxo-series-na-100m-6600-type",
+      "model": "NA-100M-6600",
+      "sourceTitle": "Low Phase Noise / Low G-Sensitivity OCXO – NA-100M-6600",
+      "sourceUrl": "https://www.taitien.com/ti-products/low-phase-noise-low-g-sensitivity-ocxo-series-na-100m-6600-type",
+      "sourceModified": "2026-10-05",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/10/NA-100M-6600-Series.pdf"
+        },
+        {
+          "label": "Phase Noise",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/10/NA-100M-6600-Phase-Noise.png"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2026/10/NA-100M-6600-e1791185877281.png"
+    },
+    {
+      "id": "low-phase-noise-low-g-sensitivity-ocxo-series-ni-10m-6800-type",
+      "model": "NI-10M-6800",
+      "sourceTitle": "Low Phase Noise / Low G-Sensitivity OCXO – NI-10M-6800",
+      "sourceUrl": "https://www.taitien.com/ti-products/low-phase-noise-low-g-sensitivity-ocxo-series-ni-10m-6800-type",
+      "sourceModified": "2026-10-05",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/10/NI-10M-6800-series.pdf"
+        },
+        {
+          "label": "Phase Noise",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/10/NI-10M-6800-Phase-Noise.png"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2026/10/NI-10M-6800-e1791189822108.png"
+    },
+    {
+      "id": "low-voltage-tcxo-tz-l-type",
+      "model": "TZ-L",
+      "sourceTitle": "Low Voltage TCXO – TZ-L Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/low-voltage-tcxo-tz-l-type",
+      "sourceModified": "2025-01-16",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/01/TZ-L-Low-Voltage-1.2V-TCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/01/TZ-C.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-oa-type",
+      "model": "OA",
+      "sourceTitle": "MHz Crystal Oscillator – OA",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-oa-type",
+      "sourceModified": "2024-08-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/10/XO-0141-OA-TYPE.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/10/OA.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-ob-type",
+      "model": "OB",
+      "sourceTitle": "MHz Crystal Oscillator – OB",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-ob-type",
+      "sourceModified": "2023-12-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2021/01/OB.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2021/01/OB.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-oc-type",
+      "model": "OC",
+      "sourceTitle": "MHz Range Crystal Oscillators – OC Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-oc-type",
+      "sourceModified": "2024-01-04",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0007-OC-Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PC-U.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-ot-type",
+      "model": "OT",
+      "sourceTitle": "MHz Range Crystal Oscillators – OT Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-ot-type",
+      "sourceModified": "2023-05-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0054-OT-LVPECL.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/OT-M-2.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-ov-type",
+      "model": "OV",
+      "sourceTitle": "MHz Range Crystal Oscillators – OV Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-ov-type",
+      "sourceModified": "2024-01-04",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0041-OV-Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PV-U-1.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-ow-type",
+      "model": "OW",
+      "sourceTitle": "MHz Range Crystal Oscillators – OW Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-ow-type",
+      "sourceModified": "2023-05-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0089-OW-LVPECL.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/OW-M.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-ox-type",
+      "model": "OX",
+      "sourceTitle": "MHz Range Crystal Oscillators – OX Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-ox-type",
+      "sourceModified": "2023-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0072-OX-Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-ox-type-ultra-low-power",
+      "model": "OX",
+      "sourceTitle": "MHz Range Crystal Oscillators – OX Type Ultra Low Power",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-ox-type-ultra-low-power",
+      "sourceModified": "2024-10-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0155-OX-Ultra-Low-Power.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PX-U-1.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-oy-type",
+      "model": "OY",
+      "sourceTitle": "MHz Crystal Oscillator – OY",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-oy-type",
+      "sourceModified": "2024-01-04",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0079-OY-Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/OY.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-oy-type-ultra-low-power",
+      "model": "OY",
+      "sourceTitle": "MHz Range Crystal Oscillators – OY Type Ultra Low Power",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-oy-type-ultra-low-power",
+      "sourceModified": "2024-10-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/01/XO-0154-OY-TYPE-ULTRA-LOW-POWER.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/07/PY-U.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-oz-type",
+      "model": "OZ",
+      "sourceTitle": "MHz Crystal Oscillator – OZ Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-oz-type",
+      "sourceModified": "2025-06-27",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0093-OZ-Type-1.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/OZ.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-oscillators-oz-type-ultra-low-power",
+      "model": "OZ",
+      "sourceTitle": "MHz Range Crystal Oscillators – OZ Type Ultra Low Power",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-oscillators-oz-type-ultra-low-power",
+      "sourceModified": "2025-12-19",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0231-OZ-Type-2.0-x-1.6-mm-SMD-Ultra-Low-Power-SMD-CMOS-Output-Crystal-Oscillator-1.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2022/04/OZ.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-x3-type",
+      "model": "X3",
+      "sourceTitle": "MHz Range Crystal – X3 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-x3-type",
+      "sourceModified": "2025-06-27",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0022_X3-1.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/X3.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-x4-type",
+      "model": "X4",
+      "sourceTitle": "MHz Range Crystal – X4 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-x4-type",
+      "sourceModified": "2026-09-29",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/09/AT-0024_X4_Type.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/X3.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-xi-type",
+      "model": "XI",
+      "sourceTitle": "MHz Range Crystal – XI Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-xi-type",
+      "sourceModified": "2023-04-28",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0008_XI.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XI.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-xj-type",
+      "model": "XJ",
+      "sourceTitle": "MHz Range Crystal – XJ Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-xj-type",
+      "sourceModified": "2023-04-28",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0020_XJ.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XJ.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-xr-type",
+      "model": "XR",
+      "sourceTitle": "MHz Range Crystal – XR Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-xr-type",
+      "sourceModified": "2023-03-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0012_XR.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XR.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-xv-type",
+      "model": "XV",
+      "sourceTitle": "MHz Range Crystal – XV Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-xv-type",
+      "sourceModified": "2023-03-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0014_XV.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XV.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-xx-type",
+      "model": "XX",
+      "sourceTitle": "MHz Range Crystal – XX Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-xx-type",
+      "sourceModified": "2026-03-13",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0002_XX.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XX.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-xy-type",
+      "model": "XY",
+      "sourceTitle": "MHz Range Crystal – XY Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-xy-type",
+      "sourceModified": "2025-12-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0017_XY.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XY.jpg"
+    },
+    {
+      "id": "mhz-range-crystal-xz-type",
+      "model": "XZ",
+      "sourceTitle": "MHz Crystal – XZ Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/mhz-range-crystal-xz-type",
+      "sourceModified": "2026-01-27",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0023_XZ.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XZ-1.jpg"
+    },
+    {
+      "id": "o3-type-smd-crystal-oscillator",
+      "model": "O3",
+      "sourceTitle": "O3 Type SMD Crystal Oscillator",
+      "sourceUrl": "https://www.taitien.com/ti-products/o3-type-smd-crystal-oscillator",
+      "sourceModified": "2026-06-25",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2023/03/XO-0201_O3.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2023/03/O3-e1782359316343.png"
+    },
+    {
+      "id": "ob-u-type-312-5mhz-ultra-low-phase-noise-crystal-oscillator",
+      "model": "OB-U",
+      "sourceTitle": "Ultra Low Phase Noise Crystal Oscillator – OB-U Type 312.5MHz",
+      "sourceUrl": "https://www.taitien.com/ti-products/ob-u-type-312-5mhz-ultra-low-phase-noise-crystal-oscillator",
+      "sourceModified": "2026-09-29",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/09/OB-U-Type-312.5MHz-Datasheet.pdf"
+        },
+        {
+          "label": "Phase Noise",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/09/Phase-Noise.png"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2023/02/OB.jpg"
+    },
+    {
+      "id": "ob-u-type-ultra-low-noise-crystal-oscillator",
+      "model": "OB-U",
+      "sourceTitle": "Ultra Low Phase Noise Crystal Oscillator – OB-U",
+      "sourceUrl": "https://www.taitien.com/ti-products/ob-u-type-ultra-low-noise-crystal-oscillator",
+      "sourceModified": "2025-12-23",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2023/02/XO-0200_OB-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2023/02/OB.jpg"
+    },
+    {
+      "id": "qcm_5mhz-series-s-caaaa-5mg02",
+      "model": "S-CAAAA-5MG02",
+      "sourceTitle": "QCM_5MHz Series – S-CAAAA-5MG02",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_5mhz-series-s-caaaa-5mg02",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02.Rev112-2012.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02-1.jpg"
+    },
+    {
+      "id": "qcm_5mhz-series-s-caaaa-5mg05",
+      "model": "S-CAAAA-5MG05",
+      "sourceTitle": "QCM_5MHz Series – S-CAAAA-5MG05",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_5mhz-series-s-caaaa-5mg05",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG05.Rev112-2012.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG05.jpg"
+    },
+    {
+      "id": "qcm_5mhz-series-s-caaaa-5mk02",
+      "model": "S-CAAAA-5MK02",
+      "sourceTitle": "QCM_5MHz Series – S-CAAAA-5MK02",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_5mhz-series-s-caaaa-5mk02",
+      "sourceModified": "2025-12-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02-1.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAA-5MG02-2.jpg"
+    },
+    {
+      "id": "qcm_5mhz-series-s-caaab-5mg03",
+      "model": "S-CAAAB-5MG03",
+      "sourceTitle": "QCM_5MHz Series – S-CAAAB-5MG03",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_5mhz-series-s-caaab-5mg03",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAB-5MG03.Rev112-2012.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-CAAAB-5MG03.jpg"
+    },
+    {
+      "id": "qcm_6mhz-series-s-abbab-6mh01",
+      "model": "S-ABBAB-6MH01",
+      "sourceTitle": "QCM_6MHz Series – S-ABBAB-6MH01",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_6mhz-series-s-abbab-6mh01",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MH01.Rev112-2012.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MH01.jpg"
+    },
+    {
+      "id": "qcm_6mhz-series-s-abbab-6mj01",
+      "model": "S-ABBAB-6MJ01",
+      "sourceTitle": "QCM_6MHz Series – S-ABBAB-6MJ01",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_6mhz-series-s-abbab-6mj01",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MJ01.Rev11-2013.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-ABBAB-6MJ01.jpg"
+    },
+    {
+      "id": "qcm_6mhz-series-s-cbaab-6mg01",
+      "model": "S-CBAAB-6MG01",
+      "sourceTitle": "QCM_6MHz Series – S-CBAAB-6MG01",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_6mhz-series-s-cbaab-6mg01",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG01.Rev112-2012.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG01.jpg"
+    },
+    {
+      "id": "qcm_6mhz-series-s-cbaab-6mg04",
+      "model": "S-CBAAB-6MG04",
+      "sourceTitle": "QCM_6MHz Series – S-CBAAB-6MG04",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_6mhz-series-s-cbaab-6mg04",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG04.Rev112-2012.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-CBAAB-6MG04.jpg"
+    },
+    {
+      "id": "qcm_6mhz-series-s-dbaab-6mk01",
+      "model": "S-DBAAB-6MK01",
+      "sourceTitle": "QCM_6MHz Series – S-DBAAB-6MK01",
+      "sourceUrl": "https://www.taitien.com/ti-products/qcm_6mhz-series-s-dbaab-6mk01",
+      "sourceModified": "2021-07-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/S-DBAAB-6MK01.Rev112-2012.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/S-DBAAB-6MK01.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-na-type",
+      "model": "NA",
+      "sourceTitle": "Standard OCXO Series – NA Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-na-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0036.NA_.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-nf-h-type",
+      "model": "NF-H",
+      "sourceTitle": "Standard OCXO Series – NF-H Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-nf-h-type",
+      "sourceModified": "2025-12-19",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0234-NF-H-OCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2020/12/NF.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-nf-t-type",
+      "model": "NF-T",
+      "sourceTitle": "Standard OCXO Series – NF-T Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-nf-t-type",
+      "sourceModified": "2025-12-19",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/12/XO-0233-NF-T-OCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/12/NF.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-ni-type",
+      "model": "NI",
+      "sourceTitle": "Standard OCXO Series – NI Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-ni-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0058_NI.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2021/02/NI.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-nj-type",
+      "model": "NJ",
+      "sourceTitle": "Standard OCXO Series – NJ Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-nj-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0046_NJ.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NJ.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-nk-h-type",
+      "model": "NK-H",
+      "sourceTitle": "Standard OCXO Series – NK-H Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-nk-h-type",
+      "sourceModified": "2023-12-20",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2020/06/XO-0175_NK-H.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NK-N.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-nk-n-type",
+      "model": "NK-N",
+      "sourceTitle": "Standard OCXO Series – NK-N Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-nk-n-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0122_NK-N_TYPE.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NK-N-1.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-nn-type",
+      "model": "NN",
+      "sourceTitle": "Standard OCXO Series – NN Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-nn-type",
+      "sourceModified": "2024-01-02",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0145_NN.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2017/10/NN.jpg"
+    },
+    {
+      "id": "standard-ocxo-series-np-type",
+      "model": "NP",
+      "sourceTitle": "Standard OCXO Series – NP Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-ocxo-series-np-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0010_NP.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NP.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-ta-type",
+      "model": "TA",
+      "sourceTitle": "Standard TCXO Series – TA Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-ta-type",
+      "sourceModified": "2026-06-30",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0104_TA.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/TT_Stratum-3.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-tv-type-2",
+      "model": "TV",
+      "sourceTitle": "Standard TCXO Series – TV Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-tv-type-2",
+      "sourceModified": "2026-06-30",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/04/XO-0043_TV.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2019/04/TV.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-tx-j-type",
+      "model": "TX-J",
+      "sourceTitle": "Standard TCXO Series – TX-J Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-tx-j-type",
+      "sourceModified": "2026-02-23",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2017/03/XO-0143_TX-J.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2017/03/TX.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-tx-p-type",
+      "model": "TX-P",
+      "sourceTitle": "High Frequency TCXO – TX-P Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-tx-p-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2018/06/XO-0148_TX-P.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2018/06/TX-P-1.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-tx-type",
+      "model": "TX",
+      "sourceTitle": "Standard VCTCXO/TCXO – TX Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-tx-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/TX.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-ty-j-type",
+      "model": "TY-J",
+      "sourceTitle": "Standard TCXO Series – TY-J Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-ty-j-type",
+      "sourceModified": "2026-02-23",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2017/03/XO-0144_TY-J.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2017/03/TY-1.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-ty-type",
+      "model": "TY",
+      "sourceTitle": "Standard TCXO Series – TY Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-ty-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_TY.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/TY-1.jpg"
+    },
+    {
+      "id": "standard-tcxo-series-tz-type",
+      "model": "TZ",
+      "sourceTitle": "Miniature VCTCXO/TCXO – TZ Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/standard-tcxo-series-tz-type",
+      "sourceModified": "2023-10-11",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/10/XO-0142_TZ.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2017/04/TZ-C.jpg"
+    },
+    {
+      "id": "stratum-3-vctcxo-stratum-3-tp-type",
+      "model": "TP",
+      "sourceTitle": "Stratum 3 VCTCXO – Stratum 3 TP Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/stratum-3-vctcxo-stratum-3-tp-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/06/XO-0221-TP-Type-for-Stratum3.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/06/TP.jpg"
+    },
+    {
+      "id": "stratum-3-vctcxo-stratum-3-tw-type",
+      "model": "TW",
+      "sourceTitle": "Stratum 3 VCTCXO – Stratum 3 TW Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/stratum-3-vctcxo-stratum-3-tw-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/05/XO-0220-TW-TYPE-for-Stratum3-VCTCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/05/TW-1.jpg"
+    },
+    {
+      "id": "thermistor-crystal-b3-type",
+      "model": "B3",
+      "sourceTitle": "Thermistor Crystal – B3 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/thermistor-crystal-b3-type",
+      "sourceModified": "2026-10-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/08/B3-Thermistor-Crystal-Datasheet.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/08/Model-Numbering-Guide_TSX.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2026/08/b3-thermistor-crystal.png"
+    },
+    {
+      "id": "tuning-fork-crystal-unit-xa-type",
+      "model": "XA",
+      "sourceTitle": "Tuning Fork Crystal Unit – XA Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/tuning-fork-crystal-unit-xa-type",
+      "sourceModified": "2023-04-18",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/32.768KHz-Tuning-Fork-Rev207-2014.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XB2060.jpg"
+    },
+    {
+      "id": "tuning-fork-crystal-unit-xb_1040-type",
+      "model": "XB_1040",
+      "sourceTitle": "Tuning Fork Crystal Unit – XB_1040 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/tuning-fork-crystal-unit-xb_1040-type",
+      "sourceModified": "2023-04-18",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/32.768KHz-Tuning-Fork-Rev207-2014.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XB2060.jpg"
+    },
+    {
+      "id": "tuning-fork-crystal-unit-xb_2060-type",
+      "model": "XB_2060",
+      "sourceTitle": "Tuning Fork Crystal Unit – XB_2060 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/tuning-fork-crystal-unit-xb_2060-type",
+      "sourceModified": "2023-04-18",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/32.768KHz-Tuning-Fork-Rev207-2014.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XB2060.jpg"
+    },
+    {
+      "id": "tuning-fork-crystal-unit-xd_1610-type",
+      "model": "XD_1610",
+      "sourceTitle": "Tuning Fork Crystal Unit – XD_1610 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/tuning-fork-crystal-unit-xd_1610-type",
+      "sourceModified": "2026-09-11",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/09/AT-0026_TuningFork.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/02/XD1610-1.jpg"
+    },
+    {
+      "id": "tuning-fork-crystal-unit-xd_1610-type-2",
+      "model": "XD_1210",
+      "sourceTitle": "Tuning Fork Crystal Unit – XD_1210 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/tuning-fork-crystal-unit-xd_1610-type-2",
+      "sourceModified": "2026-09-11",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/09/AT-0026_TuningFork.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/02/XD1210.jpg"
+    },
+    {
+      "id": "tuning-fork-crystal-unit-xd_2012-type",
+      "model": "XD_2012",
+      "sourceTitle": "Tuning Fork Crystal Unit – XD_2012 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/tuning-fork-crystal-unit-xd_2012-type",
+      "sourceModified": "2026-09-11",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/09/AT-0026_TuningFork.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XD2012.jpg"
+    },
+    {
+      "id": "tuning-fork-crystal-unit-xd_3215-type",
+      "model": "XD_3215",
+      "sourceTitle": "Tuning Fork Crystal Unit – XD_3215 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/tuning-fork-crystal-unit-xd_3215-type",
+      "sourceModified": "2026-09-11",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/09/AT-0026_TuningFork.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/09/Model-Numbering-Guide_CRYSTAL.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/XD3215.jpg"
+    },
+    {
+      "id": "ultra-compact-high-precision-low-g-sensitivity-tcxo-tp-type",
+      "model": "TP",
+      "sourceTitle": "Ultra-compact, High Precision, Low G-Sensitivity TCXO – TP Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-compact-high-precision-low-g-sensitivity-tcxo-tp-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/tw/wp-content/uploads/sites/2/2023/10/XO-0208-TP-Type-High-Precision-and-Low-G-Sensitivity-3.2-x-2.5-mm-SMD-VCTCXO.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_TCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2023/10/TP.jpg"
+    },
+    {
+      "id": "ultra-high-precision-disciplined-oscillator-dt-5151-series",
+      "model": "DT-5151",
+      "sourceTitle": "Ultra-High Precision Disciplined Oscillator DT-5151 Series",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-high-precision-disciplined-oscillator-dt-5151-series",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2022/04/DT-5151.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2022/04/DT-5151.jpg"
+    },
+    {
+      "id": "ultra-high-precision-disciplined-oscillator-dt-6565-series",
+      "model": "DT-6565",
+      "sourceTitle": "Ultra-High Precision Disciplined Oscillator DT-6565 series",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-high-precision-disciplined-oscillator-dt-6565-series",
+      "sourceModified": "2024-10-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2021/03/DT-6565.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2021/03/DT-6565-2.jpg"
+    },
+    {
+      "id": "ultra-low-g-sensitivity-ocxo-series-na-100m-6700-type",
+      "model": "NA-100M-6700",
+      "sourceTitle": "Ultra Low G-Sensitivity OCXO Series – NA-100M-6700 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-g-sensitivity-ocxo-series-na-100m-6700-type",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/tw/wp-content/uploads/sites/2/2023/12/Ultra-Low-G-Sensitivity-OCXO_NA-100M-6700.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "ultra-low-noise-series-oa-u-type",
+      "model": "OA-U",
+      "sourceTitle": "Ultra Low Phase Noise Crystal Oscillator – OA-U",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-noise-series-oa-u-type",
+      "sourceModified": "2023-12-13",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2021/04/OA-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/10/OA.jpg"
+    },
+    {
+      "id": "ultra-low-noise-series-ot-u-type",
+      "model": "OT-U",
+      "sourceTitle": "Ultra Low Noise Series – OT-U Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-noise-series-ot-u-type",
+      "sourceModified": "2023-05-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2017/12/XO-0094_OT-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2015/12/OT-M-2.jpg"
+    },
+    {
+      "id": "ultra-low-noise-series-ow-u-type",
+      "model": "OW-U",
+      "sourceTitle": "Ultra Low Phase Noise Crystal Oscillator – OW-U",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-noise-series-ow-u-type",
+      "sourceModified": "2023-12-20",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2021/05/OW-U.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/OW-M.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-crystal-oscillator-oo-u",
+      "model": "OO-U",
+      "sourceTitle": "Ultra Low Phase Noise Crystal Oscillator – OO-U",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-crystal-oscillator-oo-u",
+      "sourceModified": "2025-02-04",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/07/XO-0211-2.0-x-1.6-mm-Ultra-Low-Noise-SMD-Differential-Output-Crystal-Oscillator-OO-U-Type.pdf"
+        },
+        {
+          "label": "Phase Noise",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/07/Ultra-Low-Phase-Noise-Crystal-Oscillator_Phase-Noise-Chart.png"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_XO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2024/07/OO-U.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-ocxo-series-na-100m-6800-type",
+      "model": "NA-100M-6800",
+      "sourceTitle": "Ultra Low Phase Noise OCXO Series – NA-100M-6800 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-ocxo-series-na-100m-6800-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0120_NA-100M-6800_Series.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-ocxo-series-na-100m-6900-type",
+      "model": "NA-100M-6900",
+      "sourceTitle": "Ultra Low Phase Noise and Low G-Sensitivity OCXO – NA-100M-6900",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-ocxo-series-na-100m-6900-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/NA-100M-6900_Series-.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-ocxo-series-na-10m-6800-type",
+      "model": "NA-10M-6800",
+      "sourceTitle": "Ultra Low Phase Noise OCXO Series – NA-10M-6800 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-ocxo-series-na-10m-6800-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/03/XO-0123_NA-10M-6800_series_Rev3_012016.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NA.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-ocxo-series-nf-100m-6800-type",
+      "model": "NF-100M-6800",
+      "sourceTitle": "Ultra Low Phase Noise OCXO Series – NF-100M-6800 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-ocxo-series-nf-100m-6800-type",
+      "sourceModified": "2026-05-12",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2020/12/NF-100M-6800.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2020/12/NF.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-ocxo-series-ni-100m-6700-type",
+      "model": "NI-100M-6700",
+      "sourceTitle": "Ultra Low G-Sensitivity OCXO Series – NI-100M-6700 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-ocxo-series-ni-100m-6700-type",
+      "sourceModified": "2026-04-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2020/10/Ultra-Low-G-Sensitivity-OCXO_NI-100M-6700.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2020/10/NI.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-ocxo-series-nj-100m-6800-type",
+      "model": "NJ-100M-6800",
+      "sourceTitle": "Ultra Low Phase Noise OCXO Series – NJ-100M-6800 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-ocxo-series-nj-100m-6800-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0124_NJ-100M-6800_series.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NJ.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-ocxo-series-nj-10m-6800-type",
+      "model": "NJ-10M-6800",
+      "sourceTitle": "Ultra Low Phase Noise OCXO Series – NJ-10M-6800 Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-ocxo-series-nj-10m-6800-type",
+      "sourceModified": "2025-06-10",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0136_NJ-10M-6800_series.pdf"
+        },
+        {
+          "label": "Application Notes",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/NJ-1.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-vcxo-series-vl-type",
+      "model": "VLCU",
+      "sourceTitle": "Ultra Low Phase Noise VCXO Series – VLCU Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-vcxo-series-vl-type",
+      "sourceModified": "2025-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2016/01/XO-0121_VL_SERIES-Rev207-2015.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/VLCU.jpg"
+    },
+    {
+      "id": "ultra-low-phase-noise-vcxo-series-vleu-type",
+      "model": "VLEU",
+      "sourceTitle": "Ultra Low Phase Noise VCXO Series – VLEU Type",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-phase-noise-vcxo-series-vleu-type",
+      "sourceModified": "2025-04-07",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2019/07/XO-0171_VLEU.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_VCXO.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2016/01/VLCU.jpg"
+    },
+    {
+      "id": "ultra-low-power-atomic-oscillator-csac-dta-450",
+      "model": "DTA-450",
+      "sourceTitle": "Ultra Low Power Atomic Oscillator (CSAC) – DTA-450",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-power-atomic-oscillator-csac-dta-450",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/02/Taitien-Low-Power-Atomic-Oscillator-DTA-450.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2024/02/DTA-450.jpg"
+    },
+    {
+      "id": "ultra-low-power-disciplined-oscillator-dtq-100a",
+      "model": "DTQ-100A",
+      "sourceTitle": "Ultra Low Power Disciplined Oscillator – DTQ-100A",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-power-disciplined-oscillator-dtq-100a",
+      "sourceModified": "2025-10-17",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/10/DTQ-100A-series-20230613.pdf"
+        },
+        {
+          "label": "Application Notes",
+          "url": "https://www.taitien.com/dml_download/?title=UltraLowPowerDisciplinedOscillator-DTQ-100A&form=8735&download_id=8273&filename=DTQ-100A-FromProductPage-EN"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2024/10/DTQ-100A.jpg"
+    },
+    {
+      "id": "ultra-low-power-vcocxo-nf-10m-7000",
+      "model": "NF-10M-7000",
+      "sourceTitle": "Ultra Low Power (VC)OCXO – NF-10M-7000",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-power-vcocxo-nf-10m-7000",
+      "sourceModified": "2026-07-24",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/10/NF-10M-7000-Series-20240624.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2024/10/NF-10M-7000.jpg"
+    },
+    {
+      "id": "ultra-low-power-vcocxo-nf-16-384m-7000",
+      "model": "NF-16.384M-7000",
+      "sourceTitle": "Ultra Low Power (VC)OCXO – NF-16.384M-7000",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-power-vcocxo-nf-16-384m-7000",
+      "sourceModified": "2026-10-08",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2024/10/NF-16-384-7000-Series.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2024/10/NF-16M384-7000.jpg"
+    },
+    {
+      "id": "ultra-low-power-vcocxo-np-100m-7000",
+      "model": "NP-100M-7000",
+      "sourceTitle": "Ultra Low Power (VC)OCXO – NP-100M-7000",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-power-vcocxo-np-100m-7000",
+      "sourceModified": "2026-07-31",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/04/XO-0237-Ultra-Low-Power-100MHz-OCXO-NP-100M-7000-Series.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2026/04/NP.jpg"
+    },
+    {
+      "id": "ultra-low-power-vcocxo-np-10m-7000",
+      "model": "NP-10M-7000",
+      "sourceTitle": "Ultra Low Power (VC)OCXO – NP-10M-7000",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-power-vcocxo-np-10m-7000",
+      "sourceModified": "2026-08-05",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2026/04/XO-0236-Ultra-Low-Power-10MHz-OCXO-NP-10M-7000-Series.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2026/04/NP.jpg"
+    },
+    {
+      "id": "ultra-low-power-vcocxo-np-16-384m-7000",
+      "model": "NP-16.384M-7000",
+      "sourceTitle": "Ultra Low Power (VC)OCXO – NP-16.384M-7000",
+      "sourceUrl": "https://www.taitien.com/ti-products/ultra-low-power-vcocxo-np-16-384m-7000",
+      "sourceModified": "2026-10-05",
+      "documents": [
+        {
+          "label": "Datasheet",
+          "url": "https://www.taitien.com/wp-content/uploads/2025/05/NP-16-384M-7000-Series.pdf"
+        },
+        {
+          "label": "Model Numbering Guide",
+          "url": "https://www.taitien.com/wp-content/uploads/2015/12/Model-Numbering-Guide_OCXO-Rev307-2015.pdf"
+        }
+      ],
+      "imageSource": "https://www.taitien.com/wp-content/uploads/2025/05/NP.jpg"
+    }
+  ],
+  "registrationRequired": [
+    {
+      "productId": "ultra-low-power-disciplined-oscillator-dtq-100a",
+      "label": "Application Notes",
+      "sourceUrl": "https://www.taitien.com/dml_download/?title=UltraLowPowerDisciplinedOscillator-DTQ-100A&form=8735&download_id=8273&filename=DTQ-100A-FromProductPage-EN",
+      "reason": "Manufacturer contact-registration form; not downloaded or bypassed."
+    }
+  ],
+  "sourceDiscrepancies": {
+    "qcm_5mhz-series-s-caaaa-5mk02": {
+      "aliases": [],
+      "notes": [
+        [
+          "官网页面型号为 S-CAAAA-5MK02，原厂所附规格书标识为 S-CAAAA-5MG02-1。此处提供该原始文件，使用前请联系技术支持核对型号与版本。",
+          "The manufacturer page lists S-CAAAA-5MK02, while its linked datasheet is marked S-CAAAA-5MG02-1. This is the original linked file; confirm the model and revision with technical support before use."
+        ]
+      ]
+    },
+    "ultra-low-power-vcocxo-nf-16-384m-7000": {
+      "aliases": [
+        "NF-16M384-7000"
+      ],
+      "notes": [
+        [
+          "原厂规格书使用 NF-16M384-7000 编码；官网页面使用 NF-16.384M-7000。官网摘要与规格书的封装尺寸表述有差异，请按规格书尺寸图核对。",
+          "The datasheet uses NF-16M384-7000; the product page uses NF-16.384M-7000. Package dimensions differ between the page summary and datasheet; check the datasheet dimensional drawing."
+        ]
+      ]
+    }
+  }
+}

@@ -4,11 +4,12 @@ import { InternalLink } from "../components/common/InternalLink";
 import { Crystal } from "../components/common/Crystal";
 import { PageIntro } from "../components/common/PageIntro";
 import { BomBanner } from "../components/sections/BomBanner";
-import { NotFound } from "./NotFound";
+import { ModelDetail } from "./ModelDetail";
+import { ProductCatalog } from "../components/sections/ProductCatalog";
 export function ProductDetail({ id }: { id: string }) {
   const { t } = useLanguage();
   const c = categories.find((x) => x.id === id);
-  if (!c) return <NotFound />;
+  if (!c) return <ModelDetail id={id} />;
   return (
     <>
       <PageIntro
@@ -41,8 +42,8 @@ export function ProductDetail({ id }: { id: string }) {
             </div>
             <p className="muted">
               {t(
-                "规格、封装和可供型号需根据项目要求核实。联系我们获取对应型号的正式资料与报价。",
-                "Specifications, packages and available devices must be verified for your project. Contact us for official documentation and a quotation.",
+                "在下方按系列查看封装、频率及电气参数，并下载原厂规格书。具体订货配置与供货情况请联系我们确认。",
+                "Browse the series below for packages, frequencies, electrical parameters and manufacturer datasheets. Contact us to confirm ordering configurations and availability.",
               )}
             </p>
             <div className="action-row">
@@ -64,6 +65,7 @@ export function ProductDetail({ id }: { id: string }) {
           </div>
         </section>
         <div className="container">
+          <ProductCatalog category={c.id} />
           <BomBanner />
         </div>
       </>

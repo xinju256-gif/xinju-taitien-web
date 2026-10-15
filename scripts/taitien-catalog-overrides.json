@@ -1,0 +1,10 @@
+{
+  "qcm_5mhz-series-s-caaaa-5mk02": {
+    "aliases": [],
+    "notes": [["官网页面型号为 S-CAAAA-5MK02，原厂所附规格书标识为 S-CAAAA-5MG02-1。此处提供该原始文件，使用前请联系技术支持核对型号与版本。", "The manufacturer page lists S-CAAAA-5MK02, while its linked datasheet is marked S-CAAAA-5MG02-1. This is the original linked file; confirm the model and revision with technical support before use."]]
+  },
+  "ultra-low-power-vcocxo-nf-16-384m-7000": {
+    "aliases": ["NF-16M384-7000"],
+    "notes": [["原厂规格书使用 NF-16M384-7000 编码；官网页面使用 NF-16.384M-7000。官网摘要与规格书的封装尺寸表述有差异，请按规格书尺寸图核对。", "The datasheet uses NF-16M384-7000; the product page uses NF-16.384M-7000. Package dimensions differ between the page summary and datasheet; check the datasheet dimensional drawing."]]
+  }
+}

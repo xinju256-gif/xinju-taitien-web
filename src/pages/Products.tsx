@@ -6,6 +6,7 @@ import { InternalLink } from "../components/common/InternalLink";
 import { Selector } from "../components/sections/Selector";
 import { PageIntro } from "../components/common/PageIntro";
 import { ProductCards } from "../components/sections/ProductCards";
+import { ProductCatalog } from "../components/sections/ProductCatalog";
 export function Products() {
   const { t } = useLanguage();
   const route = useRoute();
@@ -76,6 +77,7 @@ export function Products() {
           ""
         )}
         <ProductCards ids={selected ? [selected] : null} />
+        <ProductCatalog category={selected || ""} />
         <div className="info-panel">
           <Icon name="cpu" />
           <div>

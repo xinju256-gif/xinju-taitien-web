@@ -17,6 +17,7 @@ import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { Search } from "./pages/Search";
 import { NotFound } from "./pages/NotFound";
+import { SITE_TITLE } from "./data/site";
 
 function PageRouter() {
   const { path } = useRoute();
@@ -43,14 +44,20 @@ function PageRouter() {
 
 function SiteLayout() {
   const { lang } = useLanguage();
-  const { revision } = useRoute();
+  const { revision, path } = useRoute();
   const main = useRef<HTMLElement>(null);
   useLayoutEffect(() => {
     document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+    const heading = main.current?.querySelector("h1")?.textContent;
     document.title =
-      (main.current?.querySelector("h1")?.textContent || "Simacity") +
-      " | Simacity × Taitien";
-  }, [lang, revision]);
+      path === "/" || !heading ? SITE_TITLE : `${heading} | ${SITE_TITLE}`;
+    document
+      .querySelector('meta[property="og:title"]')
+      ?.setAttribute("content", document.title);
+    document
+      .querySelector('meta[name="twitter:title"]')
+      ?.setAttribute("content", document.title);
+  }, [lang, revision, path]);
   return (
     <>
       <IconSprite />

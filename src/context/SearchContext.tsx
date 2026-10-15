@@ -6,6 +6,7 @@ import {
   type ReactNode,
 } from "react";
 import { useRoute } from "./RouterContext";
+import { directProductMatch, productPath } from "../data/products";
 
 const SearchContext = createContext<{
   query: string;
@@ -21,7 +22,10 @@ export function SearchProvider({ children }: { children: ReactNode }) {
       new FormData(event.currentTarget).get("q") || "",
     ).trim();
     setQuery(next);
-    navigate("/search?q=" + encodeURIComponent(next));
+    const exact = directProductMatch(next);
+    navigate(
+      exact ? productPath(exact) : "/search?q=" + encodeURIComponent(next),
+    );
   };
   return (
     <SearchContext.Provider value={{ query, setQuery, submit }}>

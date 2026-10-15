@@ -1,6 +1,6 @@
 # Simacity × Taitien React 工程
 
-以已经定稿、内嵌三张原图的单页面 HTML 为唯一基准，拆分为 React + TypeScript + Vite 工程。页面文案、DOM 层级、SVG 图形、CSS 属性值、响应式断点和图片尺寸均沿用定稿版。
+以已经定稿的单页面 HTML 为基础拆分为 React + TypeScript + Vite 工程。产品中心现已补齐泰艺官网公开型号、参数、原厂图片和本地规格书；首页、应用、联系、页脚及浮动联系弹窗保留原布局。
 
 ## 本地开发
 
@@ -34,6 +34,12 @@ npm run preview
 
 构建成功后，项目概览会显示可访问的 `netlify.app` 网址。后续推送到 `dev-react` 会自动更新该网址。仓库保持私有，生成的网站公开可访问。无需配置环境密钥或路由重写。
 
+## 产品资料更新
+
+收录官网 153 个产品/系列条目、145 份去重后的产品 Datasheet，以及编码指南、相位噪声资料和产品原图。精确搜索唯一型号可直接打开详情，多系列型号会显示各个版本。全部下载由本站提供。
+
+来源范围、源资料差异、文件校验与同步方法见 [产品目录说明](docs/PRODUCT-CATALOG.md)。
+
 ## 目录说明
 
 ```text
@@ -48,7 +54,10 @@ src/
   main.tsx                 React 挂载入口与 CSS 导入
   App.tsx                  页面路由与全局布局
   assets/                  两张 Logo 和企业微信二维码原文件
-  data/catalog.ts          产品、应用和技术指南的中英文内容
+  data/catalog.ts          原有分类、应用和技术指南的中英文内容
+  data/products.json       153 个公开产品/系列的参数及资料关联
+  data/products.ts         型号查询、别名匹配及资料工具
+  data/site.ts             网站标题
   context/                 语言、哈希路由、搜索、询价和提示状态
   components/
     common/                Logo、二维码、SVG 图标、产品示意图、标题、链接
@@ -57,13 +66,19 @@ src/
     forms/EnquiryForm.tsx   询价表单、BOM 校验、邮件内容与复制
   pages/                   首页、产品、应用、资源、关于、联系、搜索、404
   lib/downloadGuide.ts     技术指南下载
-  styles/site.css          定稿版的全部 CSS
+  styles/site.css          定稿版的全部 CSS（未改动）
+  styles/product-catalog.css 新产品目录与详情的独立样式
+public/datasheets/          原厂规格书、编码指南及相位噪声文件
+public/products/            原厂产品图片
+docs/                      产品来源审计、范围及维护说明
+scripts/                   可选的产品资料维护脚本
 reference/final-static.html 原样保存的定稿静态版，仅作对照，不参与生产打包
-tests/parity.spec.ts        图片、样式、截图和交互一致性测试
+tests/parity.spec.ts        未改动页面的图片、样式、截图和交互一致性测试
+tests/catalog.spec.ts       产品覆盖、文件完整性、搜索、下载与路由测试
 VALIDATION.md              验证范围与结果
 ```
 
-## 与定稿版一致的行为
+## 保留的行为
 
 - 保留 19 个站内页面、404、站内哈希链接和中英文切换。
 - 保留搜索、分类筛选、快速选型及询价参数传递。
@@ -95,7 +110,7 @@ CHROMIUM_PATH=/usr/bin/chromium npm run test:parity
 
 测试自动启动静态对照服务器，并构建、启动 React 生产预览。它们只供测试使用，测试退出后由 Playwright 清理。截图对比在同一台机器、同一浏览器、同一字体与视口下进行，不依赖跨系统的固定截图。
 
-测试包括 19 个页面 × 2 种语言 × 3 个宽度（1440、390、320），768/1024 断点、CDN 不可用、手机导航、联系弹窗、询价状态、搜索和下载。图片文件与静态版逐字节校验，CSS 按浏览器解析后的规则校验。截图要求完全一致，不设置允许误差。
+未改动的 12 个页面继续按 2 种语言 × 3 个宽度（1440、390、320）与原版逐像素比较，另检查首页断点、CDN 不可用、手机导航、联系弹窗与询价状态。原有图片逐字节校验，原有 CSS 按浏览器解析后的规则校验。新增产品功能独立验证 153 个详情入口、资料 SHA-256、搜索和下载。产品目录/详情及搜索页按本次需求扩充，不再要求与旧版空目录截图一致。
 
 ## 上传到 dev-react
 

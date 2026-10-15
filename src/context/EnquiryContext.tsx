@@ -10,6 +10,7 @@ import {
 } from "react";
 import { categories } from "../data/catalog";
 import { useRoute } from "./RouterContext";
+import { productById } from "../data/products";
 
 export interface EnquiryDraft {
   name: string;
@@ -53,12 +54,17 @@ export function EnquiryProvider({ children }: { children: ReactNode }) {
     const category = categories.find(
       (item) => item.id === params.get("category"),
     );
+    const product = productById.get(params.get("product") || "");
     const message = [
       category ? "Product: " + category.short : "",
+      product ? "Model: " + product.model + "\nSeries: " + product.nameEn : "",
       params.get("frequency")
         ? "Frequency: " + params.get("frequency") + " MHz"
         : "",
       params.get("subject") === "datasheet" ? "Datasheet request" : "",
+      params.get("subject") === "application-notes"
+        ? "Application notes request"
+        : "",
     ]
       .filter(Boolean)
       .join("\n");
