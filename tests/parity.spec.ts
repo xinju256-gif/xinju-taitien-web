@@ -31,10 +31,10 @@ const routes = [
   "/resources/bom",
 ];
 
-// The user approved replacing only these images (and the hero image caption).
+// Approved changes: product/application imagery and the home hero redesign.
 // Everything outside these fixed regions must still match the signed-off layout.
 const approvedImageRegions = [
-  ".hero-art",
+  ".hero",
   ".product-visual",
   ".app-graphic",
   ".application-story > :first-child",
@@ -111,7 +111,7 @@ async function equalPixels(
     // excludes photo antialiasing and shadows that extend beyond a fractional
     // mask edge. Separate asset tests verify the actual visible image content.
     style: `
-      .hero-art > .crystal,
+      .hero,
       .product-visual > .crystal,
       .app-graphic > img,
       .app-graphic > svg,
@@ -140,7 +140,7 @@ async function equalPixels(
   expect(
     actual.equals(expected),
     name +
-      ": pixels outside the approved product/application image regions must match",
+      ": pixels outside the approved hero and product/application image regions must match",
   ).toBe(true);
 }
 

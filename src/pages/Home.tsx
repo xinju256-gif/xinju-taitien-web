@@ -16,9 +16,27 @@ export function Home() {
   const { t } = useLanguage();
   return (
     <>
-      <section className="hero">
+      <section className="hero hero-precision">
+        <svg
+          className="hero-circuit"
+          viewBox="0 0 1440 620"
+          preserveAspectRatio="xMidYMid slice"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <g fill="none" stroke="currentColor" strokeWidth="1">
+            <path d="M590 0v66l78 78h156l54 54h562M738 0v76l77 77h210l63 63h352M980 0v86l80 80h380M1440 324h-196l-58 58H940l-70 70H650l-72 72H420M1440 352h-182l-58 58H955l-70 70H678l-72 72H440M1440 530h-288l-42-42H990l-86 86H740v46M1100 0v78l57 57h283M1440 568h-212l-44-44h-136l-96 96M588 0v28l-32 32v50M878 198v60l-36 36v62M940 382v-48l48-48h96" />
+            <g fill="currentColor" stroke="none">
+              <circle cx="556" cy="110" r="3" />
+              <circle cx="842" cy="356" r="3" />
+              <circle cx="1084" cy="286" r="3" />
+              <circle cx="420" cy="524" r="3" />
+              <circle cx="440" cy="552" r="3" />
+            </g>
+          </g>
+        </svg>
         <div className="container hero-inner">
-          <div>
+          <div className="hero-copy">
             <div className="hero-kicker">FREQUENCY CONTROL SOLUTIONS</div>
             <h1>
               {t("精准频率", "Precision timing.")}
@@ -64,13 +82,16 @@ export function Home() {
             </div>
           </div>
           <div className="hero-art">
-            <div className="orbit"></div>
-            <div className="orbit second"></div>
             <span className="art-caption">ENGINEERED FOR PRECISION</span>
-            <ProductImage
-              product={categoryImageProduct("crystal")}
-              className="crystal official-product"
-            />
+            <div className="hero-product-stage">
+              <div className="hero-product-frame">
+                <ProductImage
+                  product={categoryImageProduct("crystal")}
+                  className="crystal official-product"
+                  loading="eager"
+                />
+              </div>
+            </div>
             <div className="art-label">
               QUARTZ CRYSTAL
               <small>
