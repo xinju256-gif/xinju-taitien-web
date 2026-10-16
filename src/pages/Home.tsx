@@ -18,6 +18,31 @@ export function Home() {
     <>
       <section className="hero hero-precision">
         <svg
+          className="hero-filter-definitions"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <defs>
+            <filter
+              id="hero-remove-white"
+              x="-10%"
+              y="-10%"
+              width="120%"
+              height="120%"
+              colorInterpolationFilters="sRGB"
+            >
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -10 -10 -10 0 28.5"
+                result="whiteRemoved"
+              />
+              <feComposite in="whiteRemoved" in2="SourceAlpha" operator="in" />
+            </filter>
+          </defs>
+        </svg>
+        <svg
           className="hero-circuit"
           viewBox="0 0 1440 620"
           preserveAspectRatio="xMidYMid slice"
@@ -34,6 +59,21 @@ export function Home() {
               <circle cx="440" cy="552" r="3" />
             </g>
           </g>
+        </svg>
+        <svg
+          className="hero-wave"
+          viewBox="0 0 1440 620"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path
+            d="M0 330C60 330 60 290 120 290S180 370 240 370S300 290 360 290S420 370 480 370S540 290 600 290S660 370 720 370S780 290 840 290S900 370 960 370S1020 290 1080 290S1140 370 1200 370S1260 290 1320 290S1380 330 1440 330"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            vectorEffect="non-scaling-stroke"
+          />
         </svg>
         <div className="container hero-inner">
           <div className="hero-copy">
@@ -87,8 +127,23 @@ export function Home() {
               <div className="hero-product-frame">
                 <ProductImage
                   product={categoryImageProduct("crystal")}
-                  className="crystal official-product"
+                  className="crystal official-product hero-crystal-main"
                   loading="eager"
+                />
+                <ProductImage
+                  product={categoryImageProduct("crystal")}
+                  className="hero-crystal-small hero-crystal-small--one"
+                  decorative
+                />
+                <ProductImage
+                  product={categoryImageProduct("crystal")}
+                  className="hero-crystal-small hero-crystal-small--two"
+                  decorative
+                />
+                <ProductImage
+                  product={categoryImageProduct("crystal")}
+                  className="hero-crystal-small hero-crystal-small--three"
+                  decorative
                 />
               </div>
             </div>
