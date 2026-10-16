@@ -1,0 +1,40 @@
+/* Only image presentation changes; original card/section dimensions stay in site.css. */
+.crystal.official-product {
+  aspect-ratio: 500 / 340;
+  object-fit: contain;
+}
+
+.product-visual .official-product,
+.detail-illustration .official-product {
+  mix-blend-mode: multiply;
+}
+
+.hero-art > .official-product {
+  transform: scale(0.78);
+  border-radius: 6px;
+}
+
+.product-index {
+  z-index: 1;
+}
+
+.app-graphic > .official-application {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.application-card:hover .official-application {
+  transform: scale(1.08);
+}
+
+.app-graphic > span {
+  color: #fff;
+  text-shadow: 0 1px 3px #082d50;
+}
+
+.application-story > .official-application {
+  object-fit: cover;
+}

@@ -13,6 +13,7 @@ import { PageIntro } from "../components/common/PageIntro";
 import { DatasheetButton } from "../components/sections/ProductCatalog";
 import { BomBanner } from "../components/sections/BomBanner";
 import { NotFound } from "./NotFound";
+import { ProductImage } from "../components/common/ProductImage";
 
 export function ModelDetail({ id }: { id: string }) {
   const { t, lang } = useLanguage();
@@ -36,10 +37,7 @@ export function ModelDetail({ id }: { id: string }) {
         </a>
         <div className="catalog-model-overview">
           <div className="catalog-model-image">
-            <img
-              src={localAsset(product.image)}
-              alt={`Taitien ${product.model}`}
-            />
+            <ProductImage product={product} />
             <span>{product.model}</span>
           </div>
           <div>

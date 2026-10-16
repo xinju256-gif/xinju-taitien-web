@@ -1,7 +1,8 @@
 import { useLanguage } from "../../context/LanguageContext";
 import { categories } from "../../data/catalog";
 import { Icon } from "../common/Icon";
-import { Crystal } from "../common/Crystal";
+import { ProductImage } from "../common/ProductImage";
+import { categoryImageProduct } from "../../data/visuals";
 export function ProductCards({ ids }: { ids?: string[] | null }) {
   const { t } = useLanguage();
   return (
@@ -14,7 +15,11 @@ export function ProductCards({ ids }: { ids?: string[] | null }) {
               <span className="product-index">
                 {`0${categories.indexOf(c) + 1}`}
               </span>
-              <Crystal />
+              <ProductImage
+                product={categoryImageProduct(c.id)}
+                className="crystal official-product"
+                loading="lazy"
+              />
             </div>
             <div className="product-copy">
               <span className="product-abbr">{c.short}</span>

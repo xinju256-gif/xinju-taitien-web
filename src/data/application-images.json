@@ -1,0 +1,60 @@
+{
+  "fetchedAt": "2026-10-16",
+  "images": {
+    "communications": {
+      "path": "applications/communications-a99cfa435f.jpg",
+      "alt": ["通信网络设备与数据中心", "Network equipment and data center"],
+      "width": 1024,
+      "height": 683,
+      "mediaId": 6932,
+      "sourceTitle": "Telephone voice routers are in the data center. Equipment for Internet connection works in computer racks. Several digital communication gateways are in the server room.",
+      "sourcePage": "https://www.taitien.com/wp-json/wp/v2/media/6932",
+      "sourceImage": "https://www.taitien.com/wp-content/uploads/2022/11/AdobeStock_327043441-1024x683.jpeg",
+      "originalImage": "https://www.taitien.com/wp-content/uploads/2022/11/AdobeStock_327043441-scaled.jpeg",
+      "bytes": 123770,
+      "sha256": "a99cfa435fe71cf09bd095ee34a467b95f471171630ea715b9d8adbbfb03a9de"
+    },
+    "automotive": {
+      "path": "applications/automotive-bc3eab8e69.jpg",
+      "alt": ["汽车电子应用", "Automotive electronics application"],
+      "width": 819,
+      "height": 437,
+      "mediaId": 6122,
+      "sourceTitle": "Smart Car",
+      "sourcePage": "https://www.taitien.com/wp-json/wp/v2/media/6122",
+      "sourceImage": "https://www.taitien.com/wp-content/uploads/2021/04/Smart-Car.jpg",
+      "originalImage": "https://www.taitien.com/wp-content/uploads/2021/04/Smart-Car.jpg",
+      "bytes": 113998,
+      "sha256": "bc3eab8e6981afb1e758d6cf4c29b40f91fa3fdfd09dc8c2e9f9a409bf61d23d"
+    },
+    "industrial": {
+      "path": "applications/industrial-81f8465279.jpg",
+      "alt": ["工业自动化应用", "Industrial automation application"],
+      "width": 655,
+      "height": 437,
+      "mediaId": 6132,
+      "sourceTitle": "Industry 4.0",
+      "sourcePage": "https://www.taitien.com/wp-json/wp/v2/media/6132",
+      "sourceImage": "https://www.taitien.com/wp-content/uploads/2021/05/Industry-4.0.jpg",
+      "originalImage": "https://www.taitien.com/wp-content/uploads/2021/05/Industry-4.0.jpg",
+      "bytes": 85681,
+      "sha256": "81f8465279a9e023a99265f91080f799247234f9e07672425c473f6af2659a97"
+    },
+    "consumer": {
+      "path": "applications/consumer-f04458e7ea.jpg",
+      "alt": [
+        "智能手机与消费电子应用",
+        "Smartphone and consumer electronics application"
+      ],
+      "width": 776,
+      "height": 437,
+      "mediaId": 6136,
+      "sourceTitle": "smart phone",
+      "sourcePage": "https://www.taitien.com/wp-json/wp/v2/media/6136",
+      "sourceImage": "https://www.taitien.com/wp-content/uploads/2021/05/smart-phone.jpg",
+      "originalImage": "https://www.taitien.com/wp-content/uploads/2021/05/smart-phone.jpg",
+      "bytes": 83324,
+      "sha256": "f04458e7eab37dedf5c980069b0c7560a5db3a9fa4c8b9811713da3f7ffbb076"
+    }
+  }
+}

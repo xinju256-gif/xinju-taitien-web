@@ -40,6 +40,8 @@ npm run preview
 
 来源范围、源资料差异、文件校验与同步方法见 [产品目录说明](docs/PRODUCT-CATALOG.md)。
 
+产品与应用入口已统一使用泰艺官网发布的对应型号图和应用图。图片来源、分类代表型号及同步方法见 [配图来源说明](docs/IMAGE-SOURCES.md)。
+
 ## 目录说明
 
 ```text

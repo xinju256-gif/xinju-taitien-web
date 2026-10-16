@@ -1,6 +1,6 @@
 import { useLanguage } from "../context/LanguageContext";
 import { applications } from "../data/catalog";
-import { Icon } from "../components/common/Icon";
+import { ApplicationImage } from "../components/common/ApplicationImage";
 import { SectionHeading } from "../components/common/SectionHeading";
 import { PageIntro } from "../components/common/PageIntro";
 import { ProductCards } from "../components/sections/ProductCards";
@@ -42,7 +42,7 @@ export function Applications({ id }: { id?: string }) {
       <>
         <section className="section container">
           <div className="application-story">
-            <Icon name={a.icon} />
+            <ApplicationImage application={a.id} className="icon" />
             <div>
               <h2>{t("从应用条件出发", "Start with the application")}</h2>
               <p>{t(...a.body)}</p>

@@ -14,6 +14,7 @@ import {
   type ProductMatch,
 } from "../../data/products";
 import { Icon } from "../common/Icon";
+import { ProductImage } from "../common/ProductImage";
 
 export function DatasheetButton({ product }: { product: Product }) {
   const { t } = useLanguage();
@@ -63,7 +64,7 @@ export function ProductRows({
                 tabIndex={-1}
                 aria-hidden="true"
               >
-                <img src={localAsset(product.image)} alt="" loading="lazy" />
+                <ProductImage product={product} decorative loading="lazy" />
               </a>
               <div className="catalog-copy">
                 <span className="catalog-type">{t(group.zh, group.en)}</span>

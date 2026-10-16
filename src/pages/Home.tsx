@@ -4,7 +4,8 @@ import { Icon } from "../components/common/Icon";
 import { InternalLink } from "../components/common/InternalLink";
 import { QRCode } from "../components/common/QRCode";
 import { Selector } from "../components/sections/Selector";
-import { Crystal } from "../components/common/Crystal";
+import { ProductImage } from "../components/common/ProductImage";
+import { categoryImageProduct } from "../data/visuals";
 import { SectionHeading } from "../components/common/SectionHeading";
 import { ProductCards } from "../components/sections/ProductCards";
 import { ApplicationCards } from "../components/sections/ApplicationCards";
@@ -66,7 +67,10 @@ export function Home() {
             <div className="orbit"></div>
             <div className="orbit second"></div>
             <span className="art-caption">ENGINEERED FOR PRECISION</span>
-            <Crystal />
+            <ProductImage
+              product={categoryImageProduct("crystal")}
+              className="crystal official-product"
+            />
             <div className="art-label">
               QUARTZ CRYSTAL
               <small>

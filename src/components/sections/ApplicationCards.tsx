@@ -1,6 +1,7 @@
 import { useLanguage } from "../../context/LanguageContext";
 import { applications } from "../../data/catalog";
 import { Icon } from "../common/Icon";
+import { ApplicationImage } from "../common/ApplicationImage";
 export function ApplicationCards() {
   const { t } = useLanguage();
   return (
@@ -8,7 +9,7 @@ export function ApplicationCards() {
       {applications.map((a, i) => (
         <a className="application-card" href={"#/applications/" + a.id} key={i}>
           <div className="app-graphic">
-            <Icon name={a.icon} />
+            <ApplicationImage application={a.id} loading="lazy" />
             <span>{`0${i + 1}`}</span>
           </div>
           <div className="app-copy">

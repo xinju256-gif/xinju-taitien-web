@@ -31,10 +31,20 @@ const routes = [
   "/resources/bom",
 ];
 
+// The user approved replacing only these images (and the hero image caption).
+// Everything outside these fixed regions must still match the signed-off layout.
+const approvedImageRegions = [
+  ".hero-art",
+  ".product-visual",
+  ".app-graphic",
+  ".application-story > :first-child",
+].join(", ");
+
 async function ready(page: Page) {
   await expect(page.locator("#main h1")).toHaveCount(1);
   await page.evaluate(async () => {
     await document.fonts.ready;
+    for (const image of document.images) image.loading = "eager";
     await Promise.all(Array.from(document.images, (image) => image.decode()));
     await new Promise((resolve) =>
       requestAnimationFrame(() => requestAnimationFrame(resolve)),
@@ -97,10 +107,25 @@ async function equalPixels(
     fullPage: true,
     animations: "disabled" as const,
     caret: "hide" as const,
+    // Hide image paint during comparison, retaining its layout box. This also
+    // excludes photo antialiasing and shadows that extend beyond a fractional
+    // mask edge. Separate asset tests verify the actual visible image content.
+    style: `
+      .hero-art > .crystal,
+      .product-visual > .crystal,
+      .app-graphic > img,
+      .app-graphic > svg,
+      .app-graphic > span,
+      .app-graphic::before,
+      .application-story > :first-child { visibility: hidden !important; }
+    `,
   };
   const [expected, actual] = await Promise.all([
-    reference.screenshot(options),
-    app.screenshot(options),
+    reference.screenshot({
+      ...options,
+      mask: [reference.locator(approvedImageRegions)],
+    }),
+    app.screenshot({ ...options, mask: [app.locator(approvedImageRegions)] }),
   ]);
   if (!actual.equals(expected)) {
     await info.attach(name + "-static", {
@@ -114,7 +139,8 @@ async function equalPixels(
   }
   expect(
     actual.equals(expected),
-    name + ": screenshot must match the final static page exactly",
+    name +
+      ": pixels outside the approved product/application image regions must match",
   ).toBe(true);
 }
 

@@ -1,7 +1,8 @@
 import { useLanguage } from "../context/LanguageContext";
 import { categories } from "../data/catalog";
 import { InternalLink } from "../components/common/InternalLink";
-import { Crystal } from "../components/common/Crystal";
+import { ProductImage } from "../components/common/ProductImage";
+import { categoryImageProduct } from "../data/visuals";
 import { PageIntro } from "../components/common/PageIntro";
 import { BomBanner } from "../components/sections/BomBanner";
 import { ModelDetail } from "./ModelDetail";
@@ -10,6 +11,7 @@ export function ProductDetail({ id }: { id: string }) {
   const { t } = useLanguage();
   const c = categories.find((x) => x.id === id);
   if (!c) return <ModelDetail id={id} />;
+  const picturedProduct = categoryImageProduct(c.id);
   return (
     <>
       <PageIntro
@@ -20,11 +22,14 @@ export function ProductDetail({ id }: { id: string }) {
       <>
         <section className="section container product-detail">
           <div className="detail-illustration">
-            <Crystal />
+            <ProductImage
+              product={picturedProduct}
+              className="crystal official-product"
+            />
             <small>
               {t(
-                "封装示意，非具体型号实物图",
-                "Package illustration, not a specific device",
+                `${picturedProduct.model} 系列 · 泰艺官方产品图`,
+                `${picturedProduct.model} series · Official Taitien image`,
               )}
             </small>
           </div>
