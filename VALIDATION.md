@@ -1,5 +1,20 @@
 # 当前验证记录
 
+## 2026-10-30 普通路径、静态预渲染与 SEO
+
+- 将站内链接改为根路径 URL；使用 History API 导航，支持前进、后退和查询参数。旧 `#/...` 链接由客户端 `replaceState` 转换，保留搜索、筛选和询价参数；旧 fragment 不会到达服务器。
+- 构建时直接服务端渲染 React 页面，生成 172 个公开页面（153 个型号详情、5 个分类、4 个应用详情、3 篇指南、6 个主页面及搜索页）和独立 `404.html`。静态 HTML 自带正文，浏览器进行 hydration；默认中文，英文偏好在 hydration 后恢复。
+- 每页生成独立标题和描述、绝对 canonical、Open Graph、Twitter 和 JSON-LD。型号详情包含 Product，详情路径包含面包屑；未添加未经核实的价格、库存或评分。
+- `sitemap.xml` 包含 171 个可收录普通路径；搜索页 `noindex,follow`，不进入 sitemap。`robots.txt` 声明 sitemap，允许爬虫读取页面中的 noindex。
+- Netlify 构建使用 Node.js 24、`npm run build`、`dist`。直接托管页面目录，使用原生 `404.html` 约定，不配置返回首页的 SPA 兜底。
+- `npm ci --no-audit --no-fund` 成功，最终锁文件可安装。`netlify-cli@27.16.0 build --offline` 通过真实 `netlify.toml` 的生产构建命令。Vite 仍有原有的大文件体积提示，不影响构建退出状态。
+- 最终验证：24 项回归测试全部通过，3 项 Netlify/SEO 集成测试全部通过。
+- `CHROMIUM_PATH=/usr/bin/chromium npm run test:parity` 覆盖原有 24 项视觉、交互、图片和资料完整性验证；仅按路由和根路径资源的新行为更新 URL 断言，保留截图基准和比较规则。
+- `CHROMIUM_PATH=/usr/bin/chromium npm run test:netlify` 的 3 项集成测试遍历所有公开 URL 的无 JavaScript 原始 HTML、唯一 SEO、资源、完整 sitemap、robots、404，以及深层路径、刷新、历史和旧链接参数。
+- 本地静态集成采用已锁定的 Netlify 官方 `@netlify/dev`。CLI 本地 dev 会尝试下载此项目不需要的 Edge Functions 引导文件，并在本云环境发生 fetch 失败；未关闭 TLS 或更改访问策略。官方静态运行时仅启用本站需要的能力。其未知路径响应使用通用 404 正文，生产约定文件 `404.html` 的完整正文和 noindex 另行验证。
+- 以上为本地构建和托管验证，未推送、部署或发布，没有验证线上域名更新后的行为。
+
+
 ## 2026-10-16 Hero 配色与透明效果定稿
 
 - 按已确认的 Hero 代码应用 `#133457` 背景、8% 网格和 PCB 暗纹、7% 白色频率波形、`#FFFFFF` 标题及 `#D0DCE8` 正文。

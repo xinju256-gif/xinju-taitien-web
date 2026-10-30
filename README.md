@@ -20,7 +20,7 @@ npm run build
 npm run preview
 ```
 
-`build` 先执行严格 TypeScript 检查，再输出生产文件到 `dist/`。部署时上传整个 `dist/`。Vite 使用相对资源路径，保留原版 `#/...` 哈希路由，可部署在根目录或子目录，不需要额外的服务端路由重写。
+`build` 依次执行严格 TypeScript 检查、Vite 客户端打包、服务端渲染入口打包和静态预渲染，输出完整生产文件到 `dist/`。站点使用根路径资源和普通路径路由，部署在 `https://taitien-cn.com/`；旧 `#/...` 链接在浏览器中转换为普通路径并保留查询参数。部署时必须上传整个 `dist/`，包括每个页面目录、`404.html`、`sitemap.xml` 和 `robots.txt`，不要配置 `/* /index.html 200` 兜底重写。
 
 ## 在线预览（Netlify，保留私有仓库）
 
@@ -33,6 +33,26 @@ npm run preview
 3. **Base directory** 留空，确认构建命令为 `npm run build`、发布目录为 `dist`，点击 **Deploy**。
 
 构建成功后，项目概览会显示可访问的 `netlify.app` 网址。后续推送到 `dev-react` 会自动更新该网址。仓库保持私有，生成的网站公开可访问。无需配置环境密钥或路由重写。
+
+
+## 预渲染与 SEO
+
+`src/lib/seo.ts` 统一维护公开路由和页面元信息，`src/entry-server.tsx` 渲染真实 React 页面，`scripts/prerender.mjs` 生成静态 HTML。新增产品、分类、应用或指南会自动进入构建，无需手工维护 URL 列表。当前生成 172 个公开页面（含 153 个型号详情及搜索页）和独立 404；sitemap 包含 171 个可收录 URL，搜索页使用 `noindex,follow`。
+
+所有页面输出独立标题、描述、绝对 canonical、Open Graph、Twitter 卡片和 JSON-LD；详情页输出 Product、面包屑等结构化信息。未提供价格、库存、评分等无法验证的数据。查询参数不进入 canonical。中文为静态默认内容，英文切换及用户偏好由浏览器保留。
+
+Netlify 直接读取各目录的 `index.html`，未知路径由平台原生机制返回 `404.html` 和 HTTP 404。尾斜杠变体使用相同 canonical。URL fragment 不会发送给服务器，因此旧 Hash 链接的转换必须由浏览器执行；没有 JavaScript 的新路径仍可阅读预渲染正文。
+
+验证生产构建和 Netlify 本地静态行为：
+
+```bash
+npm ci
+npm exec --yes --package=netlify-cli@27.16.0 -- netlify build --offline
+CHROMIUM_PATH=/usr/bin/chromium npm run test:parity
+CHROMIUM_PATH=/usr/bin/chromium npm run test:netlify
+```
+
+`test:netlify` 先构建，再通过已锁定的 `@netlify/dev` 官方运行时在 8888 端口测试所有公开 URL 的原始 HTML、SEO、静态资源、sitemap、robots、HTTP 404、深层路径刷新、浏览器前进后退及旧链接参数。它只启用此静态站点需要的文件和重定向能力，不下载 Edge Functions 运行时。该本地运行时对未知路径返回通用 404 正文，因此测试另行检查生产约定文件 `404.html` 的预渲染正文和 `noindex`。测试不部署、不发布，也不代表线上域名已更新。
 
 ## 产品资料更新
 
@@ -48,7 +68,7 @@ npm run preview
 index.html                 HTML 入口、原有元信息、固定版本的 Tailwind CDN
 package.json               开发、构建、检查与测试命令
 package-lock.json          精确依赖锁文件
-vite.config.ts             React 插件与相对资源路径
+vite.config.ts             React 插件与根路径资源
 netlify.toml               在线预览的构建命令、发布目录与 Node.js 版本
 playwright.config.ts       静态版与生产构建的自动对比配置
 tsconfig.json              TypeScript 严格检查
@@ -60,7 +80,7 @@ src/
   data/products.json       153 个公开产品/系列的参数及资料关联
   data/products.ts         型号查询、别名匹配及资料工具
   data/site.ts             网站标题
-  context/                 语言、哈希路由、搜索、询价和提示状态
+  context/                 语言、History 路由、搜索、询价和提示状态
   components/
     common/                Logo、二维码、SVG 图标、产品示意图、标题、链接
     layout/                Header、Footer、FloatingContact
@@ -82,7 +102,7 @@ VALIDATION.md              验证范围与结果
 
 ## 保留的行为
 
-- 保留 19 个站内页面、404、站内哈希链接和中英文切换。
+- 保留公开页面、产品详情、404 和中英文切换；站内链接使用普通路径，兼容旧哈希链接。
 - 保留搜索、分类筛选、快速选型及询价参数传递。
 - 保留表单草稿、BOM 文件名和格式/大小校验、邮件内容生成、复制和修改需求。
 - 保留 Markdown 指南下载、手机导航、跳至正文、Escape 关闭菜单/弹窗和焦点恢复。

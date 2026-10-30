@@ -24,7 +24,7 @@ export function Header() {
   }, [revision, lang]);
   useEffect(() => {
     const click = (event: MouseEvent) => {
-      if ((event.target as Element).closest('a[href^="#/"]')) setOpen(false);
+      if ((event.target as Element).closest('a[href^="/"]')) setOpen(false);
     };
     const keydown = (event: KeyboardEvent) => {
       if (
@@ -75,7 +75,7 @@ export function Header() {
             {navigation.map(([url, zh, en]) => (
               <a
                 key={url}
-                href={`#${url}`}
+                href={`${url}`}
                 className={path.startsWith(url) ? "active" : undefined}
                 aria-current={path.startsWith(url) ? "page" : undefined}
               >
@@ -97,7 +97,7 @@ export function Header() {
               </button>
             </form>
             <a
-              href="#/search"
+              href="/search"
               className="compact-search"
               aria-label={t("站内搜索", "Site search")}
             >

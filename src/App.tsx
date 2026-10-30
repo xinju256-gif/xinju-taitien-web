@@ -17,7 +17,7 @@ import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { Search } from "./pages/Search";
 import { NotFound } from "./pages/NotFound";
-import { SITE_TITLE } from "./data/site";
+import { applySeo } from "./lib/seo";
 
 function PageRouter() {
   const { path } = useRoute();
@@ -48,21 +48,13 @@ function SiteLayout() {
   const main = useRef<HTMLElement>(null);
   useLayoutEffect(() => {
     document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
-    const heading = main.current?.querySelector("h1")?.textContent;
-    document.title =
-      path === "/" || !heading ? SITE_TITLE : `${heading} | ${SITE_TITLE}`;
-    document
-      .querySelector('meta[property="og:title"]')
-      ?.setAttribute("content", document.title);
-    document
-      .querySelector('meta[name="twitter:title"]')
-      ?.setAttribute("content", document.title);
+    applySeo(path, lang);
   }, [lang, revision, path]);
   return (
     <>
       <IconSprite />
       <a
-        href="#/"
+        href="#main"
         className="skip-link"
         data-action="skip"
         onClick={(event) => {
@@ -88,10 +80,10 @@ function SiteLayout() {
   );
 }
 
-export default function App() {
+export default function App({ initialPath = "/" }: { initialPath?: string }) {
   return (
     <LanguageProvider>
-      <RouterProvider>
+      <RouterProvider initialPath={initialPath}>
         <SearchProvider>
           <EnquiryProvider>
             <ToastProvider>

@@ -1,4 +1,10 @@
-import { createContext, useContext, useState, type ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from "react";
 
 export type Language = "zh" | "en";
 export type Translate = (zh: string, en: string) => string;
@@ -9,13 +15,14 @@ const LanguageContext = createContext<{
 } | null>(null);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Language>(() => {
+  const [lang, setLang] = useState<Language>("zh");
+  useEffect(() => {
     try {
-      return localStorage.getItem("simacity-language") === "en" ? "en" : "zh";
+      setLang(localStorage.getItem("simacity-language") === "en" ? "en" : "zh");
     } catch {
-      return "zh";
+      /* Storage may be unavailable. */
     }
-  });
+  }, []);
   const toggleLanguage = () => {
     const next = lang === "zh" ? "en" : "zh";
     try {

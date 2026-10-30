@@ -82,7 +82,7 @@ export function Footer() {
             "Independently operated by Simacity.",
           )}
         </span>
-        <a href="#/contact">{t("联系与支持", "Contact & support")}</a>
+        <a href="/contact">{t("联系与支持", "Contact & support")}</a>
       </div>
     </footer>
   );

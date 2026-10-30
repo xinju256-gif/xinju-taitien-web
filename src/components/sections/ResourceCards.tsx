@@ -6,7 +6,7 @@ export function ResourceCards() {
   return (
     <div className="resource-grid">
       {guides.map((g, index) => (
-        <a className="resource-card" href={"#/resources/" + g.id} key={index}>
+        <a className="resource-card" href={"/resources/" + g.id} key={index}>
           <div className="resource-top">
             <Icon name="file" />
             <span>{t(...g.type)}</span>

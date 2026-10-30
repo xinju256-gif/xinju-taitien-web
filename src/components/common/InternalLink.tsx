@@ -13,7 +13,7 @@ export function InternalLink({
   glyph?: string;
 }) {
   return (
-    <a className={className} href={`#${to}`}>
+    <a className={className} href={`${to}`}>
       {children}
       {glyph ? <Icon name={glyph} /> : null}
     </a>

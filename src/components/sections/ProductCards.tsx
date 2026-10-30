@@ -10,7 +10,7 @@ export function ProductCards({ ids }: { ids?: string[] | null }) {
       {categories
         .filter((c) => !ids || ids.includes(c.id))
         .map((c, index) => (
-          <a className="product-card" href={"#/products/" + c.id} key={index}>
+          <a className="product-card" href={"/products/" + c.id} key={index}>
             <div className="product-visual">
               <span className="product-index">
                 {`0${categories.indexOf(c) + 1}`}

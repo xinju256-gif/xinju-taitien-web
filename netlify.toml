@@ -4,3 +4,6 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+# Netlify serves generated page directories directly and uses dist/404.html
+# for unknown paths. Do not add an SPA catch-all rewrite to index.html.

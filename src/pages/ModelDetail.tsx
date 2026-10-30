@@ -30,7 +30,7 @@ export function ModelDetail({ id }: { id: string }) {
       <section className="section container catalog-model">
         <a
           className="catalog-back"
-          href={`#/products?family=${product.category}`}
+          href={`/products?family=${product.category}`}
         >
           <Icon name="chevron" />
           {t("返回产品中心", "Back to product catalog")}
@@ -183,7 +183,7 @@ export function ModelDetail({ id }: { id: string }) {
                   "Application notes are available on request.",
                 )}{" "}
                 <a
-                  href={`#/contact?product=${product.id}&subject=application-notes`}
+                  href={`/contact?product=${product.id}&subject=application-notes`}
                 >
                   {t("联系技术支持获取", "Contact technical support")}
                 </a>

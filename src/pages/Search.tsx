@@ -72,7 +72,7 @@ export function Search() {
         )}
         <div className="search-results">
           {cs.map((c) => (
-            <a href={`#/products/${c.id}`} key={c.id}>
+            <a href={`/products/${c.id}`} key={c.id}>
               <Icon name="cpu" />
               <div>
                 <h3>{`${t(c.zh, c.en)} · ${c.short}`}</h3>
@@ -82,7 +82,7 @@ export function Search() {
             </a>
           ))}
           {gs.map((g) => (
-            <a href={`#/resources/${g.id}`} key={g.id}>
+            <a href={`/resources/${g.id}`} key={g.id}>
               <Icon name="file" />
               <div>
                 <h3>{t(g.zh, g.en)}</h3>

@@ -14,7 +14,7 @@ export function PageIntro({
     <section className="page-intro">
       <div className="container">
         <div className="breadcrumbs">
-          <a href="#/">{t("首页", "Home")}</a>
+          <a href="/">{t("首页", "Home")}</a>
           <Icon name="chevron" />
           <span>{title}</span>
         </div>

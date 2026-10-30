@@ -6,16 +6,18 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
-    "build": "npm run typecheck && vite build",
+    "build": "npm run typecheck && vite build && vite build --ssr src/entry-server.tsx --outDir .cache/ssr && node scripts/prerender.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test:parity": "playwright test",
-    "format": "prettier --write src tests index.html vite.config.ts playwright.config.ts tsconfig.json package.json"
+    "format": "prettier --write src tests index.html vite.config.ts playwright.config.ts tsconfig.json package.json",
+    "test:netlify": "npm run build && playwright test --config playwright.netlify.config.ts"
   },
   "dependencies": {
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@netlify/dev": "5.1.12",
     "@playwright/test": "1.64.0",
     "@tailwindcss/browser": "4.1.18",
     "@types/node": "22.19.11",

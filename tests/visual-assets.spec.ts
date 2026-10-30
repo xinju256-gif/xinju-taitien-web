@@ -73,8 +73,8 @@ async function checkCategoryCards(page: Page, ids: string[]) {
   await expect(page.locator(".product-card")).toHaveCount(ids.length);
   for (const id of ids) {
     const product = categoryImageProduct(id);
-    const image = page.locator(`.product-card[href="#/products/${id}"] img`);
-    await expect(image).toHaveAttribute("src", `./${product.image}`);
+    const image = page.locator(`.product-card[href="/products/${id}"] img`);
+    await expect(image).toHaveAttribute("src", `/${product.image}`);
     await expect(image).toHaveAttribute("data-product-image", product.id);
   }
   await loadedImages(page);
@@ -103,7 +103,7 @@ for (const width of [1440, 390, 320]) {
       await page.goto(`/#/products/${category.id}`);
       await expect(page.locator(".detail-illustration img")).toHaveAttribute(
         "src",
-        `./${model.image}`,
+        `/${model.image}`,
       );
       await expect(page.locator(".detail-illustration small")).toContainText(
         model.model,
@@ -118,9 +118,9 @@ for (const width of [1440, 390, 320]) {
       for (const app of applications) {
         await expect(
           page.locator(
-            `.application-card[href="#/applications/${app.id}"] img`,
+            `.application-card[href="/applications/${app.id}"] img`,
           ),
-        ).toHaveAttribute("src", `./${applicationImage(app.id).path}`);
+        ).toHaveAttribute("src", `/${applicationImage(app.id).path}`);
       }
       await loadedImages(page);
     }
@@ -128,7 +128,7 @@ for (const width of [1440, 390, 320]) {
       await page.goto(`/#/applications/${app.id}`);
       await expect(page.locator(".application-story img")).toHaveAttribute(
         "src",
-        `./${applicationImage(app.id).path}`,
+        `/${applicationImage(app.id).path}`,
       );
       await checkCategoryCards(page, app.types);
       expect(
@@ -157,7 +157,7 @@ test("every catalog thumbnail and search result uses the same image as its model
       })),
     );
     for (const entry of entries) {
-      expect(entry.src).toBe(`./${productById.get(entry.id)!.image}`);
+      expect(entry.src).toBe(`/${productById.get(entry.id)!.image}`);
       expect(entry.imageId).toBe(entry.id);
       seen.add(entry.id);
     }

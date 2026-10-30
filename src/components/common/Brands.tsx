@@ -6,7 +6,7 @@ export function Brands() {
   const { t } = useLanguage();
   return (
     <a
-      href="#/"
+      href="/"
       className="brands"
       aria-label={`Simacity Taitien ${t("首页", "Home")}`}
     >

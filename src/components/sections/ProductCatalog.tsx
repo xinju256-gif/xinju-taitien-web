@@ -60,7 +60,7 @@ export function ProductRows({
             >
               <a
                 className="catalog-image"
-                href={`#${productPath(product)}`}
+                href={`${productPath(product)}`}
                 tabIndex={-1}
                 aria-hidden="true"
               >
@@ -69,7 +69,7 @@ export function ProductRows({
               <div className="catalog-copy">
                 <span className="catalog-type">{t(group.zh, group.en)}</span>
                 <h3>
-                  <a href={`#${productPath(product)}`}>{product.model}</a>
+                  <a href={`${productPath(product)}`}>{product.model}</a>
                 </h3>
                 <p className="catalog-name">
                   {t(product.nameZh, product.nameEn)}
@@ -108,7 +108,7 @@ export function ProductRows({
                 <DatasheetButton product={product} />
                 <a
                   className="catalog-detail-link"
-                  href={`#${productPath(product)}`}
+                  href={`${productPath(product)}`}
                 >
                   {t("查看型号详情", "View product details")}
                   <Icon name="arrow" />
@@ -224,7 +224,7 @@ export function ProductCatalog({ category = "" }: { category?: string }) {
               "Try a series name or product family, or send the full ordering code for assistance.",
             )}
           </p>
-          <a href="#/contact" className="button secondary">
+          <a href="/contact" className="button secondary">
             {t("联系选型支持", "Contact support")}
           </a>
         </div>

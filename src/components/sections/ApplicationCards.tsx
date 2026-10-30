@@ -7,7 +7,7 @@ export function ApplicationCards() {
   return (
     <div className="application-grid">
       {applications.map((a, i) => (
-        <a className="application-card" href={"#/applications/" + a.id} key={i}>
+        <a className="application-card" href={"/applications/" + a.id} key={i}>
           <div className="app-graphic">
             <ApplicationImage application={a.id} loading="lazy" />
             <span>{`0${i + 1}`}</span>

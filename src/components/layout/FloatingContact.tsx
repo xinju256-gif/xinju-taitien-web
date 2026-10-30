@@ -26,7 +26,7 @@ export function FloatingContact() {
       const target = event.target as Element;
       if (
         !target.closest(".floating-contact") ||
-        target.closest('a[href^="#/"]')
+        target.closest('a[href^="/"]')
       )
         setOpen(false);
     };

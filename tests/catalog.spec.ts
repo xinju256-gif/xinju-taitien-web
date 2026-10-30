@@ -93,7 +93,7 @@ test("header search opens a unique model; variants show results; local download 
   );
   await page.locator(".search-form input").fill("XY");
   await page.locator(".search-form button").click();
-  await expect(page).toHaveURL(/#\/products\/mhz-range-crystal-xy-type$/);
+  await expect(page).toHaveURL(/\/products\/mhz-range-crystal-xy-type$/);
   await expect(page.locator("h1")).toContainText("XY");
   const downloading = page.waitForEvent("download");
   await page
@@ -111,7 +111,7 @@ test("header search opens a unique model; variants show results; local download 
   ).toBe(true);
   await page.locator(".search-form input").fill("OX");
   await page.locator(".search-form button").click();
-  await expect(page).toHaveURL(/#\/search\?q=OX$/);
+  await expect(page).toHaveURL(/\/search\?q=OX$/);
   await expect(page.locator(".catalog-row")).not.toHaveCount(0);
   await page.locator(".large-search input").fill("温补晶振");
   await page.locator(".large-search button").click();
@@ -171,7 +171,7 @@ test("all product routes render with correct links, images, notes, and no extern
     );
     await expect(page.locator(".catalog-model-image img")).toHaveAttribute(
       "src",
-      `./${product.image}`,
+      `/${product.image}`,
     );
     await expect(page.locator(".catalog-documents a")).toHaveCount(
       product.documents.length,
@@ -180,13 +180,13 @@ test("all product routes render with correct links, images, notes, and no extern
       await page
         .locator(".catalog-documents a")
         .evaluateAll((nodes) => nodes.map((node) => node.getAttribute("href"))),
-    ).toEqual(product.documents.map((document) => `./${document.path}`));
+    ).toEqual(product.documents.map((document) => `/${document.path}`));
     await expect(page).toHaveTitle(new RegExp(SITE_TITLE));
     const links = await page
       .locator("a[href]")
       .evaluateAll((nodes) => nodes.map((node) => node.getAttribute("href")!));
     expect(
-      links.every((link) => /^(#\/|tel:|mailto:|\.\/datasheets\/)/.test(link)),
+      links.every((link) => /^(\/|#main$|tel:|mailto:)/.test(link)),
       product.id,
     ).toBe(true);
   }
@@ -199,7 +199,7 @@ test("all product routes render with correct links, images, notes, and no extern
   );
   await expect(page.locator('a[href*="application-notes"]')).toHaveAttribute(
     "href",
-    /^#\/contact/,
+    /^\/contact/,
   );
   await page.goto("/#/products/does-not-exist");
   await expect(page.locator(".empty-state")).toBeVisible();

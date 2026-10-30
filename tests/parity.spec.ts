@@ -220,7 +220,7 @@ for (const width of [1440, 390, 320])
           .evaluateAll((links) =>
             links.map((link) => link.getAttribute("href")!),
           );
-        expect(links.every((link) => /^(#\/|tel:|mailto:)/.test(link))).toBe(
+        expect(links.every((link) => /^(\/|#main$|tel:|mailto:)/.test(link))).toBe(
           true,
         );
       }

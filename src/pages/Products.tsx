@@ -37,7 +37,7 @@ export function Products() {
             <a
               className={selected === c.id ? "active" : ""}
               href={
-                "#/products?category=" +
+                "/products?category=" +
                 c.id +
                 "&frequency=" +
                 encodeURIComponent(frequency)
